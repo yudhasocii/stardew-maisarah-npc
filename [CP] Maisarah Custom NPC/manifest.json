@@ -1,0 +1,31 @@
+{
+  "Name": "Maisarah Night Butterfly",
+  "Author": "Yudhasocii",
+  "Description": "Maisarah Randa Gatal",
+  "Version": "1.0.0",
+  "UniqueID": "yudhasocii.MaisarahNPC",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:99999" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.8.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Mangupix.DialogueDisplayFrameworkContinued",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "EmpressKimi.SaloonAtticBasement",
+      "IsRequired": true
+    },
+    {
+       "UniqueID": "Arborsm.ScaleUpUnofficial",
+       "IsRequired": true
+    }
+  ]
+}

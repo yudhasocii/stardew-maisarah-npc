@@ -1,0 +1,534 @@
+{
+   "Format": "2.8.0",
+   "ConfigSchema": {
+      "Seasonal": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+      "BeachOutfitEnabled": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+      "WorkOutfitEnabled": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      }
+   },
+   "Changes": [
+      {
+         "LogName": "Blank JSON load",
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Maisarah, Characters/schedules/Maisarah, Strings/schedules/Maisarah, Characters/Dialogue/MarriageDialogueMaisarah",
+         "FromFile": "data/blank.json"
+      },
+      {
+         "LogName": "Maisarah Manifestation",
+         "Action": "Include",
+         "FromFile": "data/dispos.json"
+      },
+      {
+         "LogName": "Maisarah Portrait",
+         "Action": "Load",
+         "Target": "Portraits/Maisarah",
+         "FromFile": "assets/{{Target}}.png",
+         "Priority": "Low"
+      },
+      {
+         "LogName": "Beach Portrait",
+         "Action": "Load",
+         "Target": "Portraits/Maisarah_Beach",
+         "FromFile": "assets/{{Target}}.png",
+         "When": {
+            "BeachOutfitEnabled": true
+         }
+      },
+      {
+         "LogName": "Seasonal Portraits",
+         "Action": "Load",
+         "Target": "Portraits/Maisarah_Spring, Portraits/Maisarah_Fall, Portraits/Maisarah_Winter",
+         "FromFile": "assets/{{Target}}.png"
+      },
+      {
+         "LogName": "Work Portraits",
+         "Action": "Load",
+         "Target": "Portraits/Maisarah_Work_Saloon, Portraits/Maisarah_Work_Manor",
+         "FromFile": "assets/{{Target}}.png",
+         "When": {
+            "WorkOutfitEnabled": true
+         }
+      },
+      {
+         "LogName": "Maisarah ScaleUp Sprites",
+         "Action": "Include",
+         "FromFile": "assets/Characters/ScaleUp/Sprites.json"
+      },
+      {
+         "Action": "Load",
+         "Priority": "High",
+         "Target": "Characters/MaiDoggy",
+         "FromFile": "assets/Characters/{{TargetWithoutPath}}.png"
+      },
+      {
+         "Action": "Load",
+         "Priority": "High",
+         "Target": "Characters/LewisDoggy",
+         "FromFile": "assets/Characters/{{TargetWithoutPath}}.png"
+      },
+      {
+         "LogName": "Seasonal appearances",
+         "Action": "EditData",
+         "Target": "Data/Characters",
+         "TargetField": [
+            "Maisarah",
+            "Appearance"
+         ],
+         "Entries": {
+            "Spring": {
+               "Id": "Spring",
+               "Season": "spring",
+               "Portrait": "Portraits/Maisarah_Spring",
+               "Sprite": "Characters/Maisarah_Spring",
+               "Precedence": 10
+            },
+            "Summer": {
+               "Id": "Summer",
+               "Season": "summer",
+               "Portrait": "Portraits/Maisarah_Beach",
+               "Sprite": "Characters/Maisarah_Beach",
+               "Precedence": 10
+            },
+            "Fall": {
+               "Id": "Fall",
+               "Season": "fall",
+               "Portrait": "Portraits/Maisarah_Fall",
+               "Sprite": "Characters/Maisarah_Fall",
+               "Precedence": 10
+            },
+            "Winter": {
+               "Id": "Winter",
+               "Season": "winter",
+               "Portrait": "Portraits/Maisarah_Winter",
+               "Sprite": "Characters/Maisarah_Winter",
+               "Precedence": 10
+            },
+            "Work_Saloon": {
+               "Id": "Work_Saloon",
+               "Condition": "LOCATION_NAME Here Saloon",
+               "Portrait": "Portraits/Maisarah_Work_Saloon",
+               "Sprite": "Characters/Maisarah_Work_Saloon",
+               "Precedence": 0,
+               "When": {
+                  "WorkOutfitEnabled": true
+               }
+            },
+            "Work_Manor": {
+               "Id": "Work_Manor",
+               "Condition": "LOCATION_NAME Here ManorHouse",
+               "Portrait": "Portraits/Maisarah_Work_Manor",
+               "Sprite": "Characters/Maisarah_Work_Manor",
+               "Precedence": 0,
+               "When": {
+                  "WorkOutfitEnabled": true
+               }
+            },
+            "Beach": {
+               "Id": "Beach",
+               "Condition": "LOCATION_NAME Here Beach",
+               "Portrait": "Portraits/Maisarah_Beach",
+               "Sprite": "Characters/Maisarah_Beach",
+               "Precedence": 0,
+               "When": {
+                  "BeachOutfitEnabled": true
+               }
+            },
+            "Island": {
+               "Id": "Island",
+               "Condition": "LOCATION_CONTEXT Here Island",
+               "Portrait": "Portraits/Maisarah_Beach",
+               "Sprite": "Characters/Maisarah_Beach",
+               "Precedence": 0,
+               "When": {
+                  "BeachOutfitEnabled": true
+               }
+            },
+            "MaiDoggy": {
+               "Id": "MaiDoggy",
+               "Condition": "IS_EVENT 112233",
+               "Portrait": "Portraits/Maisarah_Work_Saloon",
+               "Sprite": "Characters/MaiDoggy",
+               "Precedence": -10
+            }
+         },
+         "When": {
+            "Seasonal": true
+         }
+      },
+      {
+         "LogName": "Lewis appearances",
+         "Action": "EditData",
+         "Target": "Data/Characters",
+         "TargetField": ["Lewis", "Appearance"],
+         "Entries": {
+            "yudhasocii_LewisDoggy": {
+               "Id": "yudhasocii_LewisDoggy",
+               "Condition": "IS_EVENT 112233",
+               "Sprite": "Characters/LewisDoggy",
+               "Precedence": -10
+            }
+         }
+      },
+      {
+         "LogName": "Maisarah Dialogue",
+         "Action": "Include",
+         "FromFile": "data/Dialogue/Dialogue.json"
+      },
+      {
+         "LogName": "Maisarah Schedule",
+         "Action": "Include",
+         "FromFile": "data/Schedule.json"
+      },
+      {
+         "LogName": "Maisarah Custom Sounds - Blowjob",
+         "Action": "EditData",
+         "Target": "Data/AudioChanges",
+         "Entries": {
+            "yudhasocii.MaisarahNPC_Slurp": {
+               "ID": "yudhasocii.MaisarahNPC_Slurp",
+               "Category": "Sound",
+               "FilePaths": [
+                  "{{AbsoluteFilePath: assets/Sounds/Slurp.ogg}}"
+               ],
+               "StreamedVorbis": true
+            }
+         }
+      },
+      {
+         "LogName": "Maisarah Custom Sounds - Moaning 1",
+         "Action": "EditData",
+         "Target": "Data/AudioChanges",
+         "Entries": {
+            "yudhasocii.MaisarahNPC_Moan1": {
+               "ID": "yudhasocii.MaisarahNPC_Moan1",
+               "Category": "Sound",
+               "FilePaths": [
+                  "{{AbsoluteFilePath: assets/Sounds/Moan1.ogg}}"
+               ],
+               "StreamedVorbis": true
+            }
+         }
+      },
+      {
+         "LogName": "Maisarah Gift Tastes",
+         "Action": "Include",
+         "FromFile": "data/gifttastes.json"
+      },
+      {
+         "LogName": "Maisarah Engaged",
+         "Action": "EditData",
+         "Target": "Strings/StringsFromCSFiles",
+         "Entries": {
+            "Maisarah_Engaged": "T-the Mermaid's Pendant?! Are you out of your mind, @... $6#$b#You actually want to put a ring on a girl like me?! $6#$b#Look into my eyes and tell me you're for real... $6#$b#Because if this is a dream, I never want to wake up. $1#$b#Yes, a million times yes! Come here and let your future wife reward you properly tonight, @... $4"
+         }
+      },
+      {
+         "LogName": "Maisarah Animations",
+         "Action": "EditData",
+         "Target": "Data/animationdescriptions",
+         "Entries": {
+            "maisarah_smoke": "16/16 16 17 17 18 18 19 19 18 18 17 17 16 16 17 17 18 18 19 19 18 18 17 17/19",
+            "maisarah_solicit": "16/16 17 17 18 18 18 18 19 19 19 19 19 17 17 17 18 18 18 18 19 19 19 19 19/19",
+            "maisarah_drink": "24/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24/24",
+            "maisarah_sit": "51/51 51 51 51 51 51/51",
+            "maisarah_bedtime": "39/39 39 39 39 39 39/39",
+            "maisarah_allfours": "21/21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 22 22 22 22 22 21 21 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21/21",
+            "maisarah_doggy": "56/56 57 57 57 57 58 58 58 58 59 59 59 59/59",
+            "lewis_animation": "0/0 1 1 1 1 2 2 2 2 3 3 3 4/4"
+         }
+      },
+      {
+         "LogName": "Maisarah Schedule Strings",
+         "Action": "EditData",
+         "Target": "Strings/Schedules/Maisarah",
+         "Entries": {
+            "morning_after.000": "{{i18n:morning_after.000}}",
+            "still_sleeping.000": "{{i18n:still_sleeping.000}}",
+            "drink.000": "{{i18n:sched_drink.000}}",
+            "rain.000": "{{i18n:sched_rain.000}}",
+            "summer.000": "{{i18n:sched_summer.000}}",
+            "summer.001": "{{i18n:sched_summer.001}}",
+            "fall.000": "{{i18n:sched_fall.000}}",
+            "fall.001": "{{i18n:sched_fall.001}}",
+            "winter.000": "{{i18n:sched_winter.000}}",
+            "winter.001": "{{i18n:sched_winter.001}}",
+            "marriage.000": "{{i18n:sched_marriage.000}}"
+         }
+      },
+      {
+         "LogName": "Maisarah DDF Large Portrait",
+         "Action": "EditData",
+         "Target": "aedenthorn.DialogueDisplayFramework/dictionary",
+         "Entries": {
+            "Maisarah": {
+               "packName": "yudhasocii.MaisarahNPC",
+               "height": 384,
+               "width": 900,
+               "xOffset": 508,
+               "yOffset": 0,
+               "dialogue": {
+                  "xOffset": 24,
+                  "yOffset": 12,
+                  "width": 880
+               },
+               "portrait": {
+                  "xOffset": -850,
+                  "yOffset": -932,
+                  "h": 1000,
+                  "w": 1000,
+                  "right": false,
+                  "bottom": true,
+                  "scale": 1
+               },
+               "name": {
+                  "xOffset": 180,
+                  "yOffset": -440,
+                  "scroll": true,
+                  "right": false,
+                  "bottom": true,
+                  "centered": true,
+                  "scrollType": 0
+               },
+               "jewel": {
+                  "xOffset": -48,
+                  "yOffset": -60,
+                  "right": true
+               },
+               "button": {
+                  "xOffset": -40,
+                  "yOffset": -48,
+                  "right": true,
+                  "bottom": true
+               },
+               "hearts": {
+                  "xOffset": 8,
+                  "yOffset": -24,
+                  "bottom": true,
+                  "showEmptyHearts": true,
+                  "heartsPerRow": 14
+               },
+               "scrollTexts": [],
+               "images": [],
+               "texts": [
+                  {
+                     "disabled": true
+                  }
+               ],
+               "dividers": [
+                  {
+                     "disabled": true,
+                     "xOffset": 0,
+                     "height": 0
+                  }
+               ]
+            }
+         }
+      },
+      {
+         "LogName": "Maisarah Marriage Dialogue",
+         "Action": "Include",
+         "FromFile": "data/Dialogue/MaisarahMarriageDialogue.json"
+      },
+      {
+         "LogName": "Maisarah Festival",
+         "Action": "Include",
+         "FromFile": "data/festivals.json"
+      },
+      {
+         "LogName": "Maisarah Movies",
+         "Action": "Include",
+         "FromFile": "data/movies.json"
+      },
+      {
+         "LogName": "Blank Load - Custom Saloon Attic Events",
+         "Action": "Load",
+         "Target": "Data/Events/Custom_SaloonAttic",
+         "FromFile": "data/blank.json"
+      },
+      {
+         "LogName": "Maisarah Events - Basic Service",
+         "Action": "Include",
+         "FromFile": "data/Events/Custom_SaloonAttic.json"
+      },
+      {
+         "LogName": "Maisarah Events - Beach",
+         "Action": "Include",
+         "FromFile": "data/Events/Beach.json"
+      },
+      {
+         "LogName": "Maisarah Events - Forest",
+         "Action": "Include",
+         "FromFile": "data/Events/Forest.json"
+      },
+      {
+         "LogName": "Maisarah Events - Saloon",
+         "Action": "Include",
+         "FromFile": "data/Events/Saloon.json"
+      },
+      {
+         "LogName": "Maisarah Events - Town",
+         "Action": "Include",
+         "FromFile": "data/Events/Town.json"
+      },
+      {
+         "LogName": "Maisarah Events - Farm",
+         "Action": "Include",
+         "FromFile": "data/Events/Farm.json"
+      },
+      {
+         "LogName": "Maisarah Events - Farmhouse",
+         "Action": "Include",
+         "FromFile": "data/Events/Farmhouse.json"
+      },
+      {
+         "LogName": "Maisarah Events - SeedShop",
+         "Action": "Include",
+         "FromFile": "data/Events/SeedShop.json"
+      },
+      {
+         "LogName": "Maisarah Events - Manor",
+         "Action": "Include",
+         "FromFile": "data/Events/ManorHouse.json"
+      },
+      {
+         "LogName": "Maisarah Spouse Room Map",
+         "Action": "Load",
+         "Target": "Maps/ShikoSpouseRoom",
+         "FromFile": "assets/Maps/ShikoSpouseRoom.tmx"
+      },
+      {
+         "LogName": "Maisarah Custom Buff Icon",
+         "Action": "Load",
+         "Target": "Mods/yudhasocii.MaisarahNPC/PigSnoutBuffIcon",
+         "FromFile": "assets/BuffIcons/RiledUpBuff.png"
+      },
+      {
+         "LogName": "Basic Service Icon",
+         "Action": "Load",
+         "Target": "Mods/yudhasocii.MaisarahNPC/LipsBuffIcon",
+         "FromFile": "assets/BuffIcons/BasicBuff.png"
+      },
+      {
+         "LogName": "Premium Service Icon",
+         "Action": "Load",
+         "Target": "Mods/yudhasocii.MaisarahNPC/UterusBuffIcon",
+         "FromFile": "assets/BuffIcons/PremiumBuff.png"
+      },
+      {
+         "LogName": "Maisarah Buff Collections",
+         "Action": "EditData",
+         "Target": "Data/Buffs",
+         "Entries": {
+            "maisarah_RiledUp": {
+               "DisplayName": "{{i18n:RiledUpBuff.DisplayName}}",
+               "Description": "{{i18n:RiledUpBuff.Description}}",
+               "Duration": 504000,
+               "IconTexture": "Mods\\yudhasocii.MaisarahNPC\\PigSnoutBuffIcon",
+               "IconSpriteIndex": 0,
+               "Effects": {
+                  "Speed": 1.0
+               }
+            },
+            "maisarah_Loosened": {
+               "DisplayName": "{{i18n:LoosenedBuff.DisplayName}}",
+               "Description": "{{i18n:LoosenedBuff.Description}}",
+               "Duration": -2,
+               "IconTexture": "Mods\\yudhasocii.MaisarahNPC\\LipsBuffIcon",
+               "IconSpriteIndex": 0,
+               "Effects": {
+                  "Speed": 1.0
+               }
+            },
+            "maisarah_Wrecked": {
+               "DisplayName": "{{i18n:WreckedBuff.DisplayName}}",
+               "Description": "{{i18n:WreckedBuff.Description}}",
+               "Duration": -2,
+               "IconTexture": "Mods\\yudhasocii.MaisarahNPC\\UterusBuffIcon",
+               "IconSpriteIndex": 0,
+               "Effects": {
+                  "Speed": 1.0,
+                  "Luck": 1.0
+               }
+            }
+         }
+      },
+      {
+         "LogName": "Maisarah Service Shop",
+         "Action": "EditData",
+         "Target": "Data/Shops",
+         "Entries": {
+            "yudhasocii.MaisarahNPC_ServiceShop": {
+               "Owners": [
+               {
+                  "Name": "Maisarah",
+                  "Portrait": "Portraits/MaisarahShop",
+                  "Dialogues": [
+                     { "Id": "yudhasocii.MaisarahNPC_ShopGreeting", "Dialogue": "So, what'll it be tonight, honey?" }
+                  ]
+               }
+               ],
+               "Items": [
+               {
+                  "Id": "Basic",
+                  "ItemId": "(O)yudhasocii.MaisarahNPC_BasicService",
+                  "Price": 500,
+                  "ActionsOnPurchase": [
+                     "yudhasocii.MaisarahServiceMenu_TriggerBasicEvent"
+                  ]
+               },
+               {
+                  "Id": "Premium",
+                  "ItemId": "(O)yudhasocii.MaisarahNPC_PremiumService",
+                  "Price": 2000,
+                  "ActionsOnPurchase": [
+                     "yudhasocii.MaisarahServiceMenu_TriggerPremiumEvent"
+                  ]
+               }
+               ]
+            }
+         }
+      },
+      {
+         "LogName": "Maisarah Service Items",
+         "Action": "EditData",
+         "Target": "Data/Objects",
+         "Entries": {
+            "yudhasocii.MaisarahNPC_BasicService": {
+               "Name": "yudhasocii.MaisarahNPC_BasicService",
+               "DisplayName": "Quickie",
+               "Description": "A voucher for tonight.",
+               "Type": "Basic",
+               "Price": 0,
+               "Texture": "Mods/yudhasocii.MaisarahNPC/LipsBuffIcon",
+               "SpriteIndex": 0
+            },
+            "yudhasocii.MaisarahNPC_PremiumService": {
+               "Name": "yudhasocii.MaisarahNPC_PremiumService",
+               "DisplayName": "Intimate",
+               "Description": "A voucher for the full experience.",
+               "Type": "Basic",
+               "Price": 0,
+               "Texture": "Mods/yudhasocii.MaisarahNPC/UterusBuffIcon",
+               "SpriteIndex": 0
+            }
+         }
+      },
+      { //Farmer Sprite [108] - [110] - [114 115 116] - [120 121 122]
+         "Action": "EditImage",
+         "Target": "Characters/Farmer/farmer_base, ...",
+         "FromFile": "assets/Characters/Farmer/{{TargetWithoutPath}}.png",
+         "Update": "OnLocationChange",
+         "Priority": "Late",
+         "ToArea": {"X": 0, "Y": 576, "Width": 48, "Height": 96},
+         "When": { "LocationName": "Custom_SaloonAttic" }
+      }
+   ]
+}

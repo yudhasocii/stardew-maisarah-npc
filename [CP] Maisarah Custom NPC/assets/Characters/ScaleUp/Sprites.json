@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Priority": "High",
+            "Target": "Characters/Maisarah, Characters/Maisarah_Beach, Characters/Maisarah_Spring, Characters/Maisarah_Summer, Characters/Maisarah_Fall, Characters/Maisarah_Winter, Characters/Maisarah_Work_Manor",
+            "FromFile": "assets/Characters/ScaleUp/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "Action": "Load",
+            "Priority": "Medium",
+            "Target": "Portraits/MaisarahShop",
+            "FromFile": "assets/Portraits/Maisarah_Shop.png"
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "{{Arborsm.ScaleUpUnofficial/Assets}}",
+            "Entries": {
+                "yudhasocii.MaisarahScaleUp": [
+                    {
+                        "Target": "Characters",
+                        "Assets": "Maisarah, Maisarah_Beach, Maisarah_Summer, Maisarah_Fall, Maisarah_Winter, Maisarah_Work_Manor, Maisarah_Spring",
+                        "Scale": 4,
+                        "Sprite": {
+                            "BreathType": "None",
+                            "HeadShotX": 16,
+                            "HeadShotY": 64,
+                            "HeadShotXRenderOffset": 0,
+                            "HeadShotYRenderOffset": 0,
+                            "MiniMapXOffset": 2,
+                            "MiniMapYOffset": 0
+                        }
+                    },
+                    {
+                        "Asset": "Portraits/MaisarahShop",
+                        "Scale": 4
+                    }
+                ]
+            }
+        }
+    ]
+}

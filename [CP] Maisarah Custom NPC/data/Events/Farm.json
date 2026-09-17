@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+	"958567/f Maisarah 2500/t 2000 2400/w sunny": "nightTime/64 15/farmer 64 16 2 Maisarah 64 20 0/skippable/pause 1500/speak Maisarah \"{{i18n:event_10hearts_001}}\"/emote Maisarah 40/speak Maisarah \"{{i18n:event_10hearts_002}}\"/emote farmer 40/pause 1000/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap SebastianRide/ambientLight 0 0 0/specificTemporarySprite sebastianRide/viewport 15 8 true/speak Maisarah \"{{i18n:event_10hearts_003}}\"/pause 500/speak Maisarah \"{{i18n:event_10hearts_004}}\"/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/ambientLight 0 0 0/warp farmer 15 18/warp Maisarah 16 18/positionOffset farmer 0 7/playMusic spaceMusic/viewport 15 14 true/faceDirection farmer 0/showFrame Maisarah 23/pause 5000/speak Maisarah \"{{i18n:event_10hearts_005}}\"/pause 800/speak Maisarah \"{{i18n:event_10hearts_006}}\"/faceDirection farmer 1/emote farmer 8/speak Maisarah \"{{i18n:event_10hearts_007}}\"/pause 3000/speak Maisarah \"{{i18n:event_10hearts_008}}\"/pause 900/speak Maisarah \"{{i18n:event_10hearts_009}}\"/pause 500/showFrame Maisarah 12/faceDirection Maisarah 3/speak Maisarah \"{{i18n:event_10hearts_010}}\"/pause 700/faceDirection farmer 1/emote Maisarah 40/pause 2000/showFrame Maisarah 32/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/positionOffset Maisarah -1 0/pause 10/showFrame 101/pause 4000/viewport move 1 -1 6000/pause 6000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 4000/end position 64 16/end"
+	},
+	},
+	],
+}

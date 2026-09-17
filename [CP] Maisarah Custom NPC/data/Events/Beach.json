@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "958563/f Maisarah 500/t 630 1000/w sunny": "ocean/42 35/farmer 29 35 1 Maisarah 42 36 2/skippable/showFrame Maisarah 29/move farmer 12 0 1/move farmer 0 1 2/speak Maisarah \"{{i18n:event_2hearts_001}}\"/faceDirection farmer 1/speak Maisarah \"{{i18n:event_2hearts_002}}\"/faceDirection farmer 2/speak Maisarah \"{{i18n:event_2hearts_003}}\"/pause 1000/speak Maisarah \"{{i18n:event_2hearts_004}}\"/question fork1 \"{{i18n:event_2hearts_005}}\"/fork noResponse/pause 1000/speak Maisarah \"{{i18n:event_2hearts_006}}\"/emote farmer 60/speak Maisarah \"{{i18n:event_2hearts_007}}\"/move Maisarah 0 -1 0/faceDirection farmer 0/speak Maisarah \"{{i18n:event_2hearts_008}}\"/move Maisarah -16 0 3 true/faceDirection farmer 3/pause 500/faceDirection farmer 2/globalFade/viewport -1000 -1000/end",
+        "noResponse": "pause 500/emote Maisarah 28/speak Maisarah \"{{i18n:noResponse_2hearts_001}}\"/move Maisarah 0 -1 0/faceDirection farmer 0/speak Maisarah \"{{i18n:noResponse_2hearts_002}}\"/move Maisarah -14 0 3 true/faceDirection farmer 3/globalFade/viewport -1000 -1000/end"
+	},
+	},
+	],
+}

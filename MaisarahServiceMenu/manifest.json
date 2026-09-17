@@ -1,0 +1,10 @@
+{
+  "Name": "MaisarahServiceMenu",
+  "Author": "Yudahsocii",
+  "Version": "1.0.0",
+  "Description": "Adds a service menu shop trigger for Maisarah",
+  "UniqueID": "yudhasocii.MaisarahServiceMenu",
+  "EntryDll": "MaisarahServiceMenu.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

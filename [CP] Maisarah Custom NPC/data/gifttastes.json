@@ -1,0 +1,14 @@
+{
+	"Changes": 
+    [
+		{
+            "LogName": "Maisarah Gift Taste Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries":
+            {
+        "Maisarah": "{{i18n:gift.love}}/197 72 206 221 234 253 651 348/{{i18n:gift.like}}/346 233 424 -80 -26/{{i18n:gift.dislike}}/92 330 78 -4/{{i18n:gift.hate}}/685 220 766/{{i18n:gift.neutral}}/24 250 256 270 340 388 390 442"
+            }
+        }
+    ]
+}

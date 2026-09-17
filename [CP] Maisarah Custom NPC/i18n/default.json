@@ -1,0 +1,723 @@
+{
+  "Maisarah.Name": "Maisarah",
+
+  "RiledUpBuff.DisplayName": "Riled Up",
+  "RiledUpBuff.Description": "Blood's still rushing south. Better keep moving.",
+  "maisarah.town.daytime": "Well, well... look who decided to take a break from the fields. $0#$b#Are you just using the farm as an excuse to come here and stare at my tits, darling?$1#$b#You know, watching you sweat out there all day is doing some very wicked things to my mind...$1#$b#If you get too tired from all that heavy lifting, you're always welcome to come over and relax at my place tonight.$1#$b#Don't keep me waiting...$4#$action AddBuff maisarah_RiledUp",
+  "maisarah.saloon.nighttime": "Hi darling!#$action yudhasocii.MaisarahServiceMenu_OpenShop",
+  "LoosenedBuff.DisplayName": "Loosened Up",
+  "LoosenedBuff.Description": "She worked some of that tension out. You've got a little extra pep in your step.",
+  "WreckedBuff.DisplayName": "Wrecked",
+  "WreckedBuff.Description": "She took everything out of you — and gave plenty back. Good luck walking straight.",
+  "Introduction": "Oh... hello there. You must be the new farmer everyone around town has been talking about, huh?#$b#My name is Maisarah, but you can just call me Mai. It's nice to meet you.#$e#I'm sorry if my outfit is a bit... revealing. It gets suffocatingly hot around here, so I prefer wearing something light...$1#$b#Hmm... your family name sounds familiar, though. I think I knew your grandfather quite well.$1",
+  "danceRejection": "Not today, sweetie. To be honest, this festival's dance feels a bit too... minimal for my taste. $0#$b#Besides, my muscles are already so weak from last night, $1#$b#and I need to save what's left of my energy for later. $1#$e#Why don't you try asking Haley or Penny instead? $1#$b#They look like they could use some company. $1",
+  "secondChance_Girls": "Hnghh... you want us to go back to the way we were, honey? Come closer then... as long as you promise not to yell at me whenever I come home late and drenched in sweat, okay?$3",
+
+  "maisarah.daily.mon.1": "Morning, @. You're up early. I can already tell you've been working hard.$4#$b#You know, there's something terribly unfair about a man looking that good this early in the morning.$l#$b#Now go before I start finding reasons to keep you here.",
+  "maisarah.daily.mon.2": "I was trying to fix a loose button on my dress this morning. I made it worse.$s#$b#Honestly, I'm beginning to suspect some of my clothes are simply too eager to come off.$4#$b#Don't look so pleased with yourself, handsome. I noticed that little smile.",
+  "maisarah.daily.mon.3": "The attic gets awfully quiet in the afternoon.$7#$b#Sometimes I lie on my bed and enjoy the silence for a while...#$b#Then I start wondering what kind of trouble I could get into if the right person happened to knock on my door.$4",
+  "maisarah.daily.mon.4": "Mmm... you smell like fresh soil and hard work today.$4#$b#It's a surprisingly attractive combination. I might have to start visiting the farm more often.$l#$b#Though if I get too close, don't blame me when I stop pretending I'm only there to admire the crops.",
+  "maisarah.daily.mon.5": "Gus has me helping with the VIP lounge tonight. He says I have a talent for keeping people interested.$4#$b#I told him that's hardly a difficult job when you know exactly what to say... and when to lean a little closer.$l#$b#You should come by tonight, handsome. I promise I'll make the evening memorable.",
+  "maisarah.daily.mon.6": "I bought a new vanilla perfume today.$7#$b#It's soft enough that you only notice it when you're close.$l#$b#Which means you'll have to come closer if you want to smell it properly. Go on... I'm not going to move.",
+  "maisarah.daily.mon.7": "I was supposed to spend the afternoon reading on the balcony.$1#$b#Then you walked past, and suddenly the book became very difficult to concentrate on.$4#$b#Honestly, @, if you're going to look like that while doing farm work, you should at least warn a girl.",
+  "maisarah.daily.mon.8": "I caught myself smiling at the window this morning. Embarrassing, isn't it?$s#$b#Then I realized I was watching you work outside.$l#$b#You have no idea how distracting a strong pair of shoulders can be from this distance.",
+  "maisarah.daily.mon.9": "I attempted breakfast this morning. It was a complete disaster.$s#$b#Perhaps I need a farmer's help. I've heard you people are very good with your hands.$4#$b#Oh, don't give me that look. I was talking about cooking... mostly.",
+  "maisarah.daily.mon.10": "Have you noticed how pretty the flowers are around here?#$b#Back in my hometown, I never had much space for a garden. Everything was crowded and noisy.$7#$b#Now I can pick something beautiful whenever I want.$4#$b#Although I suppose I already have one favorite thing to look at around here.",
+  "maisarah.daily.mon.11": "I helped Penny carry some books earlier. She thanked me and hurried away before I could tease her.$1#$b#People in this town are terribly easy to embarrass.$4#$b#You're different, though. I wonder how close I have to get before I finally make you lose that confident little smile.",
+  "maisarah.daily.mon.12": "I have a shift at the Manor House later. Apparently they trust me with important things now.$1#$b#I'm still not sure whether that's because I'm responsible or because nobody has the courage to tell me no.$4#$b#Either way, I intend to enjoy myself.",
+  "maisarah.daily.mon.13": "Your hands look rougher every time I see you.$4#$b#There's something I like about that. They look like they actually work for a living.$l#$b#I've always been curious what those hands are capable of when they're not holding a tool.",
+  "maisarah.daily.mon.14": "I spent all afternoon rearranging my room. Now my bed is facing a slightly different direction.$s#$b#A tremendous achievement, I know.$1#$b#You should come upstairs and inspect my work sometime. Just be warned... I might decide the furniture isn't the most interesting thing in the room.",
+  "maisarah.daily.mon.15": "You know, @... I'm getting rather comfortable here.$7#$b#The quiet mornings, the familiar faces, the little attic upstairs... and having a certain handsome farmer wandering into my life.$4#$b#It's dangerous, really. A woman could get used to having someone she actually wants to see waiting outside her door.",
+
+  "maisarah.daily.tue.1": "Happy Tuesday, handsome. You're out and about early again today, aren't you?$4#$b#I was just thinking about how quiet this place gets during the day... and how easily I get distracted when a certain strong-shouldered farmer walks into my view.$l#$b#Don't be a stranger, @. You're always welcome to walk up and make my day a little more... interesting. Hehe~$1",
+  "maisarah.daily.tue.2": "I was trying to fix a loose button on my dress this morning, but I think I made it worse.$s#$b#Honestly, @... I'm beginning to suspect some of my clothes are simply too eager to come off.$4#$b#Don't look so pleased with yourself, handsome. I noticed that confident little smile.$1",
+  "maisarah.daily.tue.3": "The attic upstairs gets awfully quiet in the afternoon, you know? $7#$b#Sometimes I just lie on my bed and enjoy the silence for a while...#$b#Then I start wondering what kind of trouble I could get into if the right person happened to knock on my door. Are you a troublemaker, @? $4",
+  "maisarah.daily.tue.4": "Mmm... you smell like fresh soil and honest, hard work today. It's a surprisingly attractive combination.$4#$b#It almost makes me want to visit your farm more often. $l#$b#Though if I get too close, don't blame me when I stop pretending I'm only there to admire the crops. Hehe~$1",
+  "maisarah.daily.tue.5": "Gus has me helping with the lounge tonight. He says I have a natural talent for keeping people interested.$4#$b#I told him that's hardly a difficult job when you know exactly what to say... and when to lean a little closer.$l#$b#You should come by tonight, handsome. I promise I can make the evening very memorable.$4",
+  "maisarah.daily.tue.6": "I bought a new vanilla perfume today. It's very soft and subtle.$7#$b#The merchant said it's the kind of scent you only notice when you're standing exceptionally close.$l#$b#Which means you'll have to come closer if you want to smell it properly, @. Go on... I'm not going to bite. $4",
+  "maisarah.daily.tue.7": "I was supposed to spend the afternoon reading on the balcony today.$1#$b#Then you walked past, and suddenly the book became very difficult to concentrate on.$4#$b#Honestly, @, if you're going to look that good while doing heavy labor, you should at least warn a girl.$1",
+  "maisarah.daily.tue.8": "I caught myself smiling at the window this morning. Terrible habit, isn't it? $s#$b#Then I realized I was just watching you move around outside. $l#$b#You have no idea how distracting a strong pair of shoulders can be, even from a distance, honey... $4",
+  "maisarah.daily.tue.9": "I attempted to make breakfast this morning, but it was a complete disaster. $s#$b#Perhaps I need a farmer's help. I've heard you people are remarkably good with your hands.$4#$b#Oh, don't give me that look, @. I was talking about cooking... mostly. Hehe~$1",
+  "maisarah.daily.tue.10": "Careful staring like that, @. Someone might think you're interested in buying what I'm selling.$4#$b#Oh, relax, honey. I know the difference between a real customer and someone who's just genuinely curious...$l#$b#But curiosity can be a dangerous thing around a woman like me. Are you feeling brave today? $4",
+  "maisarah.daily.tue.11": "I helped Penny carry some heavy books earlier. She thanked me and hurried away before I could even tease her.$1#$b#People in this village are terribly easy to embarrass. $4#$b#You're different, though, @. I wonder how close I have to get before I finally make you lose that confident little smile... $4",
+  "maisarah.daily.tue.12": "Business has been a bit slow lately, which usually bores a city girl like me.$7#$b#But luckily, you're much more interesting than the usual crowd around here. $l#$b#Are you here to talk business, handsome... or are you just here to admire me? I don't mind either way. $4",
+  "maisarah.daily.tue.13": "Your hands look rougher every time I see you, @. $4#$b#There's something I really like about that. They look like they actually work for a living...$l#$b#Back in the city clubs, I always wondered what hands like yours are capable of when they're not holding a tool... Mmmhh..~$4",
+  "maisarah.daily.tue.14": "I spent all afternoon rearranging my loteng room. Now my bed is facing a slightly different direction.$s#$b#A tremendous achievement, I know. $1#$b#You should come upstairs and inspect my work sometime, honey. Just be warned... I might decide the furniture isn't the most interesting thing in the room. $4",
+  "maisarah.daily.tue.15": "Maybe I'll tell you some stories about what I used to do back in Zuzu City... $7#$b#But only if you promise not to look so innocent while I do. $4#$b#It's dangerous, really. A woman could get used to having someone she actually wants to see waiting outside her door... Hehe~$1",
+
+  "maisarah.daily.wed.1": "Darling, you keep looking at me like you wanna touch something.$1#$b#Careful… I might let you, if you buy me a drink first.",
+  "maisarah.daily.wed.2": "You look awfully good today, handsome^You look awfully good today, gorgeous.$1#$b#Don't get too excited… I'm just appreciating the view.",
+  "maisarah.daily.wed.3": "Darling, you should've seen the bachelor party I heard about last night.$1#$b#Apparently the groom started the evening swearing he'd behave himself… and ended it surrounded by people he definitely shouldn't have been flirting with.$1#$b#The funniest part? He was supposed to get married the very next morning.$4",
+  "maisarah.daily.wed.4": "You know what I like about this place?$0#$b#It's a tiny fucking town. Sit too close to someone at the Saloon and half the town knows by breakfast.$1#$b#Honestly? I think I enjoy giving them something to talk about.$4",
+  "maisarah.daily.wed.5": "Have you ever been to a nude beach, handsome?^Have you ever been to a nude beach, gorgeous?$1#$b#Don't look so shocked.$0#$b#I'm just saying… if everyone stopped pretending to be shy, half the people in this town would probably have a much better time.$1",
+  "maisarah.daily.wed.6": "Sometimes I miss the old days.$1#$b#My ex would get shit-faced and pass out at home while his buddies stayed behind.$0#$b#Let's just say… those boys knew how to keep a lonely wife entertained. $4#$b#Damn, I miss those filthy nights.$1",
+  "maisarah.daily.wed.7": "I caught someone staring at my ass earlier.$1#$b#Honestly? I would've been offended if they weren't so damn obvious about it.$4",
+  "maisarah.daily.wed.8": "You farmers work your asses off all day.$0#$b#Then you come into the Saloon and stare at mine. Funny how life works.$1",
+  "maisarah.daily.wed.9": "Sometimes I think I'd like an honest job like Penny's.$0#$b#Teaching children, helping the community, being a respectable woman… sounds almost wholesome, doesn't it?$1#$b#Then I remember I'd probably turn every lesson into sex education, teach Gunther how to appreciate fossils in entirely new ways, and get myself banned from the museum by lunch.$4",
+  "maisarah.daily.wed.10": "Hey, @... mind if I visit your farm sometime?$0#$b#I kinda wanna watch you milk the cows… and maybe take a little ride on your horse.$1#$b#I've always wondered, though… if cows give milk, does that mean horses do too? Hmm. That must be some pretty thick milk.$4",
+  "maisarah.daily.wed.11": "Between you and me, I think this town has too many secrets.$0#$b#Lucky for me, I don't mind finding out what people are hiding.$1",
+  "maisarah.daily.wed.12": "Come here, @.$1#$b#Closer. I wanna see what you've got hiding under those farm clothes.$1#$b#Hmm… don't look so nervous. I promise I'm only going to make you wonder what I'd do if you let me.$4",
+  "maisarah.daily.wed.13": "Hey, @. Come here, I need a favor.$1#$b#I'm doing my Kegel exercises today, and I need something soft to lean against.$1#$b#Don't worry… you just have to sit still while I use you as my personal cushion.$4",
+  "maisarah.daily.wed.14": "Don't tell anyone this, but… I think I miss a certain married man.$2#$b#It's stupid, I know. He's got a wife, I've got my own life…#$b#Still, some damn memories refuse to stay buried.$1",
+  "maisarah.daily.wed.15": "Hey, @… random question.$1#$b#Is Harvey actually dating Maru, or are they just being adorable little lab partners?$0#$b#Because if they're not together… well, let's just say I've been wondering whether the good doctor could handle a little trouble.$1",
+
+  "maisarah.daily.thu.1": "Harvey gave me a full-body checkup today.$0#$b#He checked my mouth, teeth, chest, and even my private bits.$1#$b#He called it a complete health screening. I didn't mind… especially since I didn't have to pay a single gold.$4#$b#Pretty lucky, huh, @?",
+  "maisarah.daily.thu.2": "Hey, @… when you go into those caves, you keep running into slime girls, don't you?$1#$b#So tell me… have you ever seen a slime boy?$0#$b#If you find a cute one, bring him home for me. I want a little slime pet of my own.$1#$b#Something big, bouncy, and shamelessly messy... Hmmmmhh, now that's a pet I could get attached to.$4",
+  "maisarah.daily.thu.3": "I saw a goblin in the caves once.$0#$b#Ugly little bastard was green, barely dressed, and had this weirdly ridged thing that made me stare for way too long.$1#$b#I tried to look away, but damn… that was one hell of a sight.$1#$b#Aughh... I probably shouldn't tell you what went through my head, @.$1",
+  "maisarah.daily.thu.4": "I asked Rassy what all those strange plants around his tower were for.$1#$b#He said some of them could boost stamina and keep a person going for hours.$0#$b#So I asked my sweet little wizard to make me something to try.$1#$b#Mmm... Rassy really does know his magic.$4#$b#When it finally wore off, I could barely walk in a straight line.$0#$b#Ahhh... I was a complete mess, and that smug old wizard just sighed and teleported me straight back to the Inn.$1#$b#Honestly, Rassy... you really should've warned me how strong that stuff was.$4#$b#Mmm... still, I might have to visit my wizard again sometime.$1",
+  "maisarah.daily.thu.5": "I think I need to start taking better care of myself.$0#$b#Baths, lotions, proper sleep... maybe some stretching.$1#$b#Mmm... although knowing me, I'll probably turn self-care into an excuse to lounge around all afternoon.$4#$e#Actually... I might ask Big G. for a little massage later.$1#$b#My shoulders are killing me, and my poor booty could use some attention too.$1#$e#Ahhh… those big hands of his must be perfect for working all the knots out.$4#$b#Mmm… maybe I'll let him work his way down to my sore cheeks.$1#$b#Don't look at me like that, @. A girl deserves a little pampering, doesn't she?$4",
+  "maisarah.daily.thu.6": "Have you ever wondered what happens if a slime gets really, really big?$1#$b#Does it get stronger? Hungrier? Maybe a little harder to handle?$1#$b#Mmm… I've always had a weakness for things that are big, bouncy, and covered in goo.$4#$b#Imagine one of those huge slimes bouncing right up against you…$1#$b#Ahhh… I bet it'd be impossible to keep your clothes clean.$4#$b#Don't look at me like that, @. I'm just curious about monster behavior.$1#$b#Very, very curious… mmm.$4",
+  "maisarah.daily.thu.7": "I asked Harvey whether monsters can get sick.$0#$b#He said technically, yes.$1#$b#Now I'm wondering whether there's such a thing as monster medicine… and whether a slime would swallow a pill or just absorb the damn thing.$4",
+  "maisarah.daily.thu.8": "You know what's strange?$0#$b#I've met ghosts, goblins, monsters, witches, and a wizard who talks to plants.$1#$b#But somehow the strangest creature I've ever met is still a perfectly normal person from Pelican Town.$4",
+  "maisarah.daily.thu.9": "I found an old book about monster anatomy today.$1#$b#I only meant to skim a few pages… then I got curious.$0#$b#Turns out some creatures have body parts I'd never even heard of.$1#$b#Nature is filthy as hell, @.$4",
+  "maisarah.daily.thu.10": "Do you think the monsters in the mines ever get lonely?$2#$b#Imagine spending your whole life underground, waiting for some farmer to wander in and beat the shit out of you.$0#$b#Honestly… I'd be bitter too.",
+  "maisarah.daily.thu.11": "I tried asking the wizard whether he could teach me a spell for making people blush.$1#$b#He said magic doesn't work that way.$0#$b#Shame. I could've made a fortune with that one.",
+  "maisarah.daily.thu.12": "I passed by the clinic earlier and heard Harvey talking about posture.$0#$b#Apparently sitting properly is good for your back.$1#$b#I told him I've got plenty of experience sitting in interesting positions.$4#$b#He suddenly became very interested in his paperwork.",
+  "maisarah.daily.thu.13": "I think I'd like to keep a strange little creature someday.$0#$b#A slime, maybe. Or a bat. Something cute, weird, and slightly dangerous.$1#$b#Knowing me, I'd probably name it after someone I shouldn't be thinking about.$4",
+  "maisarah.daily.thu.14": "I saw a strange purple thing moving around near the mines last night.$1#$b#I almost went closer to investigate… then I remembered I enjoy having all my fingers.$0#$b#Curiosity is fun. Losing body parts is less fun.",
+  "maisarah.daily.thu.15": "You know, @… sometimes I think I'd make a terrible scientist.$1#$b#I'd start with one harmless little experiment, get curious, break three rules, and somehow end up covered in slime.$4#$b#Mmm… actually, that doesn't sound like a terrible afternoon.",
+
+  "maisarah.daily.fri.1": "Sitting next to Pam at the saloon bar last night was absolute gold.$0#$b#We spent the whole night chugging beers and swapping filthy jokes about the local men... $4#$b#Ahh... like how I made Haley turn bright red by whispering what a high-end camera can do to my tight angles$1#$b#Or how George nearly lost his breath when I leaned low over his wheelchair to fix his blanket, letting my heavy tits brush his cheek... $4#$b#Pam just slammed the counter laughing, screaming that the two of us are on the exact same dirty frequency, *giggles* $4",
+  "maisarah.daily.fri.2": "Mmmhh... you think Big Gus would actually marry a shameless slut like me, farmer?$1#$b#I mean, I can cook, I clean whenever I fucking feel like it, and God knows I know exactly how to keep a man entertained all night long... $4#$b#Ooh... why are you looking at me with those scary, intense eyes? $1#$b#What? Are you getting incredibly jealous of the tavern owner already, handsome? Mmmhh..~ $4",
+  "maisarah.daily.fri.3": "Mmmhh... I was watching Robin handle those heavy wooden logs near her shop earlier this morning.$0#$b#That hot carpenter mom has such an incredibly tight, toned body from all that manual labor... $1#$b#It got me thinking about her quiet husband and what actually goes down in their mountain house after dark... $1#$b#Tell me honestly, handsome... how many wild rounds do you think a woman like her takes before she's finally satisfied? aughHHHHhh $4",
+  "maisarah.daily.fri.4": "I am in such an exceptionally good mood today, sweetheart.$4#$b#Got paid by my premium subscribers, bought a tight new outfit, and I already have enough filthy local appointments booked to make the weekend worth staying up for... $1#$b#Ahhh... Friday really is a beautiful fucking day to be a complete slut, don't you think? $4",
+  "maisarah.daily.fri.5": "Mmmhh... sometimes I wonder what it would be like to have two husbands at the same time.$1#$b#One brings home the heavy gold, the other cooks for me, and both of them know better than to complain about my wicked habits... $4#$b#Fuck... a slut like me would get completely spoiled rotten, aughHHHHhh $4",
+  "maisarah.daily.fri.6": "I have this filthy little fantasy that I keep coming back to whenever I am lonely upstairs.$1#$b#Some rich city bastard rents my whole room for the entire night and tells me I don't have to worry about a thing except keeping him hard and happy... $4#$b#Ahhh... getting paid a fortune just to get absolutely ruined? Now that is my kind of dream, Mmmhh..~ $4",
+  "maisarah.daily.fri.7": "You know what I love most about Friday nights around this valley?$1#$b#People have way fewer excuses... they drop the shy act completely... $0#$b#If they want some wicked company, they find me... if they want a drink, they drink... $1#$b#And if they want to stretch my tight walls... well, they already know exactly where the attic key is hiding, mmmmhhh~ $4",
+  "maisarah.daily.fri.8": "Emily is looking fucking hot lately, @... be completely honest with me.$1#$b#Who gets you harder? Me, or her colorful little self? And do you think Big Gus has a hidden thing for her too? $0#$b#Ooh... if you were locked in a dark room and had to pick... would you choose my heavy tits or her? Don't lie to me... $4",
+  "maisarah.daily.fri.9": "Mmmhh... you want to know what kind of real husband a girl like me actually wants?$0#$b#One who provides endlessly, stays completely loyal, and doesn't flinch when other men look at my bare skin... $1#$b#He has to love the fact that being my husband doesn't mean he's the only man allowed to get completely weak in the knees whenever I walk past... $1#$b#I need someone strong enough to stand beside a high-end obsession like me without breaking *giggles*$4",
+  "maisarah.daily.fri.10": "I made more than enough gold from my InstaFarm account this week to buy something incredibly stupid.$4#$b#So obviously, I went ahead and bought it without thinking twice... $1#$b#Being responsible and safe is so fucking boring... I prefer things that are wild and risky, Mmmhh..~ $1",
+  "maisarah.daily.fri.11": "Don't you dare tell Robin this, but Professor Demetrius is fucking hung!$1#$b#That man doesn't just have a massive brain for science... apparently, he is packing a huge cock under those boring trousers too... $4#$b#Goddamn... I had such a hard time behaving myself when he was explaining the soil data to me, mmmhhh~$1",
+  "maisarah.daily.fri.12": "I am always exceptionally careful with my local regulars around here.$0#$b#Protection, strict rules, no stupid emotional bullshit... that is how I keep my business running smoothly... $1#$b#But when I actually fall for a handsome man... yeah, darling, I get a hell of a lot less sensible and way more submissive... $4",
+  "maisarah.daily.fri.13": "You know, @... I am not just a pretty, brainless slut.$1#$b#I am actually fucking smart when it comes to reading what men desire... $4#$b#You think Papi Lewis asked me to help out around the Manor House just because I look good in a tight skirt? $1#$b#The old bastard just keeps finding excuses to have my body near his desk every chance he gets, aughHHHHhh $4",
+  "maisarah.daily.fri.14": "Between you and me, @... are you close with Jodi from down the street?$0#$b#I've seen her looking so gloomy and lonely every single time her husband is away on duty... $3#$b#Ahh... I am planning to drag her out of that quiet house and bring her to the saloon bar with me tonight... $1#$b#We are going to slam down some drinks, unleash her hidden bad-girl side, and hunt for some wild local meat together, hehe~$4",
+  "maisarah.daily.fri.15": "Friday night is finally here, @... and goddamn, I can already feel my hormones going absolutely wild.$1#$b#I swear, the whole town looks ten times hotter on Fridays... $4#$b#Maybe it's the weekend air... or maybe my pussy is just horny as hell tonight... $1#$b#Either way, somebody better come to my room and keep me entertained before I start causing real trouble, mmmmhhh~ $4",
+
+  "maisarah.daily.sat.1": "Gus made me another special drink behind the bar earlier.$4#$b#That sweet man knows exactly how much I love taking my sweet time with something good... $1#$b#A little sip... a little pause... letting the warmth crawl straight to my thighs$1#$b#I love making a poor thing last until the very last drop, mmmmhhh~ $4",
+  "maisarah.daily.sat.2": "Mmmhh... Alex and Shane challenged me to a game of pool at the saloon last night.$0#$b#Those two naughty boys wouldn't stop giggling about handling sticks and playing with balls... $1#$b#Ahh... I took my turn, leaning low over the table right in front of them, and Alex nearly choked on his drink$4#$b#Shane just watched my hips with that stupid grin, desperately wishing he could pocket my hidden colors... $4",
+  "maisarah.daily.sat.3": "Gus had a barbecue out back yesterday, and Alex and Shane were taking that spit roast way too seriously.$0#$b#Mmmhh... one kept fussing with the heat while the other kept turning the whole shaft over and over... $1#$b#They were both so sweaty, flushed, and completely determined to show off their endurance in front of me$4#$b#Ahh... watching two young boys work that hard is much more entertaining than the actual food$4",
+  "maisarah.daily.sat.4": "Mmmhh... you really know how to work that field with such a steady rhythm, farmer.$0#$b#Nice and deep... never rushing it when you are driving into the dirt... $1#$b#Ahh... there is something terribly satisfying about watching a man put his whole weight into a job$4#$b#Keep sliding those strong hands around my view, and Mai might start getting some very corrupt ideas... $4",
+  "maisarah.daily.sat.5": "Ooh... I was practicing darts earlier, and my grip was completely flawless today.$4#$b#It is all about how you hold it, sweetheart... wrapping your fingers firmly around the shaft before letting it fly... $1#$b#Ahh... bullseye... three times in a row... I am getting rather pleased with how well I handle stiff targets$1#$b#And you look awfully confident standing there yourself, handsome... don't make me curious, mmmmhhh~ $1",
+  "maisarah.daily.sat.6": "Mmmhh... this pleated school skirt is feeling exceptionally tight on my hips today.$1#$b#Ahh... took me forever to squeeze my heavy tits into this tiny kemben top... $1#$b#A little tug here... a tiny adjustment there... letting everything spill out just enough for a tease$4#$b#You are staring again, @... keep looking like that and I will make sure you get a private view upstairs... $4",
+  "maisarah.daily.sat.7": "Mmmhh... I was using that old wooden press to mash some wild berries earlier.$0#$b#You have to grip the handle firmly and put a lot of steady downward pressure into it... $1#$b#Ahh... there we go... nice, warm, and getting completely crushed until it runs wet$4#$b#Funny how much better things turn out when you know exactly how to handle a tight squeeze... $4",
+  "maisarah.daily.sat.8": "Haaah... my shoulders were killing me after standing in my short skirt all morning.$1#$b#Dr. Handsome noticed and offered to work all those stubborn knots out with his lovely, steady hands... $0#$b#Mmmhh... he knew exactly where to press, his fingers sliding lower than they usually do at the clinic$4#$b#Ahh... I nearly melted right there, letting out a deep moan that made the poor doctor's hands shake... $4",
+  "maisarah.daily.sat.9": "Willy was leaning against the pier earlier, looking out at the open water.$4#$b#Sailor Man looked so caught off guard when I walked up behind him in my short skirt... $1#$b#Ahh... I leaned right next to him, asking if he ever gets lonely out there on those long nights at sea$1#$b#I can only imagine how rough it gets when a weathered captain like him decides to drop anchor in deep, tight waters, mmmmhhh~ $4",
+  "maisarah.daily.sat.10": "Shane came into the saloon, ordered one strong drink, and finished it before asking for another.$1#$b#Mmmhh... then another... and another... completely insatiable at the counter... $1#$b#I finally whispered near his ear, 'Honey, don't you know when you've had a tight enough fill?'$4#$b#He just laughed, staring at my cleavage, telling me he always craves another round when the view is this filthy... $4",
+  "maisarah.daily.sat.11": "Mmmhh... those outdoor flowers needed some extra special attention this morning.$1#$b#Had to stroke them slowly and give them a little more care before they finally opened up wide for me... $0#$b#Ahh... you can't just throw things around a pretty girl and expect her to bloom for you$1#$b#Sometimes you need patience... a deeply persistent touch... until she is completely flooded, mmmmhhh~ $4",
+  "maisarah.daily.sat.12": "Mmmhh... Professor Demetrius was helping me move some heavy furniture at the Manor earlier.$0#$b#That man is so intensely serious about everything... measuring the dimensions, checking the fit until it slides in perfectly... $1#$b#I teased him about his analytical eyes, leaning close enough to let his face brush my chest$4#$b#Ahh... watching a smart man lose his focus while his hands are full is incredibly distracting, aughHHHHhh $4",
+  "maisarah.daily.sat.13": "Pierre stopped by with a shipment box and asked whether I wanted the big one or the little one.$1#$b#I looked straight into his nervous eyes and said, 'Oh, Pierre... you know damn well I always take the biggest piece available.'$4#$b#Mmmhh... the look on his face was absolutely priceless, his mind running straight into the gutter... $4#$b#Ahh... poor Mr. General Store... his knees were literally shaking behind his counter, mmmmhhh~ $1",
+  "maisarah.daily.sat.14": "Mmmhh... your grandpa was a surprisingly quiet wolf, handsome.$4#$b#He used to sneak over to the attic pretty often... much more often than you'd probably like to know... $1#$b#Ahh... we would lock the door for hours, and I would always come back downstairs looking completely flushed and exhausted$1#$b#Ooh... your grandpa knew exactly how to use his endurance, and he was very fucking persistent about getting what he wanted... $4",
+  "maisarah.daily.sat.15": "Mmmhh... you know what I like most about you, handsome?$1#$b#You don't need any instructions... give you a dirty job to do and you just keep pounding away until it's finished... $4#$b#Ahh... that is a very rare and useful quality in a young man around this sleepy valley... $1#$b#I get terribly curious about what else those rough, hard-working hands of yours are capable of when nobody is watching... $4",
+
+  "maisarah.daily.sun.1": "Alex came by earlier looking way too fucking good for a Sunday morning.$0#$b#That boy knows exactly what he's doing with that smug little smile... $1#$b#Ahh... I gave him one look and his young twink cock went rock hard instantly$1#$b#Nearly forgetting how to speak, realizing his young dick is probably bigger than anyone else's in this town, mmmmhhh~ $1",
+  "maisarah.daily.sun.2": "Papi Lewis has been finding an awful lot of reasons to stop by lately.$1#$b#Always some tiny favor, some excuse to keep me around... $1#$b#Ahh... I swear, that old man loves to slip his hand under my skirt! $4#$b#I bet he wants to see if my hidden treasure is just as solid as that secret golden statue of his, Mmmhh..~ $4",
+  "maisarah.daily.sun.3": "Willy dropped by earlier smelling like salt and filthy trouble.$0#$b#Sailor Man looked tired, but that didn't stop him from looking my way... $1#$b#ahh... I can only imagine what kind of massive catch he's boasting about after a long day at sea$1#$b#I told him to rest before he leaves me completely flooded, mmmhhh~$1",
+  "maisarah.daily.sun.4": "Demetrius stopped by yesterday and somehow managed to make talking about plants sound so indecent.$0#$b#That man can explain anything with that serious voice and those clever eyes... $1#$b#Did I behave? Fuck no! I kept grinding my hips and showing him my cleavage$4#$b#Until he was completely flustered, desperately wanting to research my wet walls... $4",
+  "maisarah.daily.sun.5": "Gus was looking ridiculously good behind the bar yesterday.$0#$b#That giant man has this calm little smile that makes me wonder how much he's actually packing underneath it all... $1#$b#I teased him about it, and he looked like he wanted to pin me against the counter right there.$4#$b#Ooh... a girl could easily get her backdoor in serious trouble trying to rattle a bear like him $4",
+  "maisarah.daily.sun.6": "Someone slid into my InstaFarm DMs this morning.$0#$b#No hello, just straight-up sent me a picture of a massive, throbbing cock... $4#$b#Ahh... I stared at it and fucking burst out laughing because it's still three times bigger than what most boys here are packing$4#$b#Ooh... should I reply with a gapping picture of my wet gash? Mmmhh..~ $4",
+  "maisarah.daily.sun.7": "Sam was practicing with his skateboard outside our house earlier.$0#$b#That clueless little rockstar kept wiping his brow, making sure I was watching him... $1#$b#Ahh... I walked out in my short skirt and his eyes immediately dropped to my thighs, losing his balance completely$1#$b#I bet his cute guitar-plucking fingers would shake so damn hard trying to handle a real woman, mmmmhhh~ $1",
+  "maisarah.daily.sun.8": "Mmmhh... Sebastian sneaked out of his basement to clear his head near the farm.$0#$b#That moody, quiet boy looks so deliciously submissive when he thinks nobody is looking... $1#$b#Ahh... I stood close enough to let him smell my perfume while he smoked his cigarette$4#$b#He choked on the smoke, staring at my lips, desperately wishing he could lock me in his room, Mmmhh..~ $4",
+  "maisarah.daily.sun.9": "Harvey looked so ridiculously uptight when he did my check-up yesterday.$0#$b#The good doctor tried so hard to stay professional while holding his stethoscope... $1#$b#ahh... I let out a deep moan right when he touched my chest, watching his heart rate spike higher than mine$1#$b#I bet he needs a private prescription just to calm his hard dick down after seeing me, mmmhhh~$1",
+  "maisarah.daily.sun.10": "Clint was hammering away at his anvil yesterday looking incredibly frustrated.$0#$b#The lonely blacksmith always gets so red in the face whenever I step into his shop... $1#$b#Did I play nice? Fuck no! I leaned over his counter until my heavy tits were practically resting on his iron ores$4#$b#He nearly smashed his own thumb, completely losing his mind over my tight, teasing body, aughHHHHhh $4",
+  "maisarah.daily.sun.11": "Mmmhh... Shane was slouching near the JojaMart looking completely miserable yesterday.$0#$b#That broken, rough guy has this hidden, aggressive energy that turns me on so bad... $1#$b#I whispered in his ear that a cold beer isn't the only thing that can numb his pain$4#$b#He gripped his grid bottle so tight, looking like he wanted to drag me into the bushes right there, aughHHHHhh $4",
+  "maisarah.daily.sun.12": "Pierre was staring blankly at his empty cash register this morning.$0#$b#The stressed shopkeeper looked like he desperately needed a distraction from his failing business... $4#$b#Ahh... I walked past his aisle, intentionally letting my skirt brush against his trousers$4#$b#The poor man's eyes went wide, realizing there are much better ways to spend his hidden stash, Mmmhh..~ $4",
+  "maisarah.daily.sun.13": "Wizard Rasmodius invited me to his tower under the guise of 'spiritual essence'.$0#$b#That eccentric old man thinks his magic spells can handle a slut like me... $1#$b#Ahh... I gave him one wicked smile and his ancient staff wasn't looking so mystical anymore$1#$b#He started chanting in tongues, completely overwhelmed by the raw heat radiating from my body, mmmmhhh~ $1",
+  "maisarah.daily.sun.14": "Linus was bathing near his tent when he thought the mountains were empty.$0#$b#That wild, rugged man is packing a surprisingly large piece of nature under those leaves... $1#$b#Ahh... I didn't even look away, I just smirked and let him see exactly how wet I get for a real beast$4#$b#He froze like a deer, realizing this town's favorite exhibitionist has found a real match, Mmmhh..~ $4",
+  "maisarah.daily.sun.15": "Mmmhh... someone left a massive box of silk lingerie anonymously at my doorstep.$0#$b#No return address, just a note asking me to wear it for my next InstaFarm upload... $4#$b#Ahh... I tried it on and fucking burst out laughing because the crotch area is already completely soaked through$4#$b#Ooh... I should definitely take a teasing picture and let the whole town guess who bought it? Mmmhh..~ $4",
+  
+  "maisarah.mon2.1": "Hi there, handsome...^Hi there, gorgeous... You always look like you are completely focused on a mission, don't you?$4#$b#I was just thinking about how quiet this valley can get when everyone is busy working... $0#$b#And how easily I get distracted the moment a certain strong-shouldered farmer walks into my view... *giggles* $1#$b#Don't be a stranger, @... you are always welcome to step closer and make my day a little more interesting, mmmhh... $1",
+  "maisarah.mon2.2": "You know, @... when I first packed my bags and moved out of Zuzu City, I thought I would be completely bored to death within a week... $0#$b#But luckily for me, this little valley has a few unexpected ways of keeping a girl highly entertained... $1#$b#Especially when a certain attractive farmer keeps walking past with that confident composure... *giggles* $4#$b#Mmmhh... I am starting to look forward to our little encounters a lot more than I probably should, hehehe~ $4",
+  "maisarah.mon2.3": "My mind has a terrible habit of wandering into some very quiet, private places during the day.$7#$b#Sometimes I just let myself relax and completely enjoy a few minutes of peace... $0#$b#Then I start wondering what kind of trouble I could get into if the right person happened to show up out of nowhere... *giggles* $1#$b#Are you the type who likes to stir up trouble, @? Mmmhh... $4",
+  "maisarah.mon2.4": "Mmmhh... you smell like fresh soil and honest, heavy labor right now.$4#$b#It is a surprisingly attractive combination, you know... $1#$b#It almost makes me want to follow you around more often... just to keep a very close eye on you... hehehe~ $1#$b#Though if I get too close, don't you dare blame me when I stop pretending I am only interested in passing the time... $4",
+  "maisarah.mon2.5": "I was looking over some schedules and updates earlier today.$0#$b#People always tell me I have a natural, effortless talent for keeping everyone completely interested... $4#$b#I told them that is hardly a difficult job when a girl knows exactly how to speak... and exactly when to stand a little closer... *giggles* $1#$b#You should definitely stick around close to me, handsome...^You should definitely stick around close to me, gorgeous... I promise I can make our conversations very memorable... $4",
+  "maisarah.mon2.6": "That vanilla scent lingering in the air right now isn't from the valley flowers, handsome.$4#$b#It is a new body mist... very soft, very subtle... $0#$b#The kind of fragrance you only notice when you are standing exceptionally close to a girl... *giggles* $1#$b#Which means you will have to step a lot closer if you want to test it properly, @... don't worry, I don't bite... $4",
+  "maisarah.mon2.7": "Concentrating on a simple task is becoming completely impossible whenever you are walking around, @.$0#$b#You just pass right through my view, and suddenly my entire train of thought goes straight out the window... hehehe~ $1#$b#Honestly, if you are going to look that good while doing heavy labor, you should at least warn a girl... $1#$b#It is completely unfair to my focus, mmmhh... $4",
+  "maisarah.mon2.8": "Staring is a terrible habit, isn't it? $s#$b#Yet, watching you move around out there is easily the most interesting part of my day... $0#$b#You have no idea how distracting a strong pair of shoulders can be, even from a distance, honey... *giggles* $1#$b#You really shouldn't give a girl like me so many reasons to look, mmmhh... $4",
+  "maisarah.mon2.9": "Cooking is officially a complete disaster on my end, hands down.$s#$b#Perhaps a real farmer's assistance is exactly what is missing around here... $0#$b#Word on the street is that you people are remarkably good with your hands, after all... hehehe~ $4#$b#Oh, don't give me that innocent look, @... the conversation was about kitchen work... mostly... $1",
+  "maisarah.mon2.10": "Careful staring like that, handsome...^Careful staring like that, gorgeous... $1#$b#someone might think you are interested in buying what I am selling.$4#$b#Oh, relax, honey... *giggles* You can look all you want, but you look like the type who prefers a more hands-on experience... $1#$b#But curiosity can get a boy into real trouble around here...^But curiosity can get a girl into real trouble around here... are you feeling brave right now? Mmmhh... $4",
+  "maisarah.mon2.11": "Penny was carrying some exceptionally heavy library books down the street earlier today.$1#$b#The poor schoolteacher thanked me and hurried away the second I tried to lean in and tease her... $4#$b#People in this sleepy little village are so remarkably easy to embarrass, aren't they? $4#$b#You are different, though, @... how close do I have to get before I finally make you lose that confident little composure, mmmhh... $1",
+  "maisarah.mon2.12": "Business has been a tiny bit slow around the valley lately, which usually completely bores a city girl like me.$7#$b#But luckily for both of us, you are much more interesting than the usual crowd around here... $1#$b#Are you walking over here to talk business with me, handsome...^Are you walking over here to talk business with me, gorgeous...#$b#Or are you just here to admire the scenery? I don't mind either way... *giggles* $4",
+  "maisarah.mon2.13": "Your hands look a little bit rougher every single time I see you, @.$4#$b#There is something I really, deeply like about that... they look like they actually work for a living... $1#$b#Back in the Zuzu City clubs, the men had such soft, useless hands... $1#$b#It always made me wonder what rough, strong hands like yours are capable of when you are completely relaxed, hehehe~ $4",
+  "maisarah.mon2.14": "I spent the entire afternoon rearranging my small bedroom upstairs in the attic.$s#$b#Now my bed is facing a slightly different direction... a truly tremendous achievement, I know... $1#$b#You should come upstairs and inspect my hard work sometime, honey... $4#$b#Just be warned... I might decide the wooden furniture isn't the most interesting thing in the room, mmmhh... $4",
+  "maisarah.mon2.15": "Maybe if you play your cards right, I will tell you some scandalous stories about what I used to do back in Zuzu City... $7#$b#But only if you promise not to look so innocent while I share the details... $4#$b#It is a bit dangerous, really... a woman could get used to having someone she actually wants to see waiting right outside her door, hehehe~ $1",
+
+  "Mon4": "Hey, @! Back to the hard work on the farm already? You really are a diligent man.$1#$b#Seeing you work this hard at the start of the week actually makes me feel quite motivated too...$0#$b#Hmm... maybe you can teach me a thing or two about your 'stamina' sometime, sweetie. Mmmhh..~ $4",
+
+  "Tue2": "You've got a bit of dirt right here on your cheek, farmer boy...^Oh, look at you, farmer girl... you've got a bit of dirt right here on your pretty face...#$b#There, all clean~ Hehe... your skin feels so warm and firm under my fingertips.$0#$b#Hmm... it makes me want to touch you somewhere else next time. Do you want me to, sweetie? Mmmhh..~ $4",
+
+  "Tue6": "You wouldn't believe the things people talk about when they think no one is listening, @...$0#$b#Just last night at the saloon, I overheard some very interesting gossip about one of our prominent neighbors...$0#$b#Hmm... if you want me to share the juicy details with you, you'll have to buy me a drink first. Deal? Hehe~ $1",
+
+  "Wed4": "I swear I saw something bizarre near the old community center today.#$e#Looked like... a giant pink toy, walking around on its own. Just tired eyes, probably.$3#$b#Or maybe one of my old 'personal items' finally learned to run away from home~",
+
+  "Wed2": "Phew... taking a little afternoon break is the best part of the day, @.$1#$b#Sometimes my mind gets so noisy, but just sitting out here and watching the wind blow makes everything melt away...$0#$b#Hmm... though it would be much nicer if a handsome farmer like you came over to sit and keep me warm. Mmmhh..~ $4",
+
+  "Thu2": "Ah, @! Perfect timing. I was just trying out a new vanilla body mist in my room...$1#$b#They say sweet scents make a woman look completely irresistible to men. I wonder if that's true...$0#$b#Come closer and take a sniff right here behind my ear. Tell me if you like it, sweetie... Mmmhh..~ $4",
+
+  "Thu4": "Sometimes I just love walking around the edge of the woods when the sun starts to set, @...$0#$b#It’s so quiet out there. No crowd, no loud music, just the sound of the trees...$1#$b#It almost makes me wonder what would happen if a handsome farmer caught me out there alone in the dark... Mmmhh..~ $4",
+
+
+ "Thu10": "I think I need new glasses. Or maybe just less time squinting at my phone in the dark...$2#$e#Probably the phone... or maybe I just need something much better to stare at. Present company included, mm~ $4",
+  
+  "Fri3": "This town has really been growing on me, @... it’s so peaceful here.$1#$e#No one here constantly demands my attention or my smiles... well, nobody but you, anyway.$0#$b#And honestly, you are the only exception I don't mind spending my time on. Mmmhh..~ $4",
+  
+  "Fri4": "You ever just want to sit down, have a sweet drink, and forget about everything else?$0#$b#I’m actually very good at keeping people company and pouring drinks...$1#$b#But when I'm sitting here with you, I find myself wishing the night would never end. Mmmhh..~ $4",
+  
+  "Sat2": "Ugh, I chipped my nail again! There is no decent nail salon in this whole valley...$2#$b#I think it got broken while I was cleaning up those messy inn rooms upstairs until dawn last night...$5#$e#Hehe~ I guess my hands will just have to find some other, more exciting work around here instead~ $4",
+  
+  "Sat4": "@, do you ever wonder what you'd be doing if farming didn't work out for you?$0#$b#You've got the kind of face and body that would do incredibly well on a certain kind of camera... trust me, I'd know.$4",
+  
+  "Sun2": "Oh, hey @. Nice day out, isn't it?$1#$e#Feels like nothing bad could happen on a morning this soft...$0#$b#Or maybe... something very, very good could happen instead, if you play your cards right~ Mmmhh..~ $4",
+  
+  "Sun8": "Hey there, @. You look exceptionally good today.$1#$b#Not the fake, dressed-up kind of good—but the real, raw kind that actually makes my heart skip a beat...$0#$e#Careful now, or I might start finding excuses to lock you inside my room for good. Mmmhh..~ $4",
+
+  "Saloon_Entry": "Hey everyone!/Emi, pour me a cold one, would you?/Anyone care to pull up a chair and keep me company tonight?",
+
+  "ManorHouse_Entry": "Hi Papi Lui~! Missed your favorite girl?/Mmmhh... ready to lock the office door for me, Mayor?/Ah, @... care to join my private consultation?",
+
+  "spring_12": "Egg Festival is tomorrow, @... I never understood why everyone gets so incredibly excited over hunting for tiny eggs.$0#$b#Though... I suppose I do know a thing or two about handling a pair of delicate, round shapes myself... Mmmhh..~ $4#$e#Hehe~ Good luck with the festival competition tomorrow, handsome. Don't push your stamina too hard.$0",
+
+  "spring_23": "The Flower Dance is tomorrow, huh? Everyone around here is so obsessed with dancing out in the sun...$0#$b#But honestly, I’ve always preferred a different kind of 'dance'. The kind that happens in the dark, where our bodies are pressed tight and dripping in sweat... Mmmhh..~ $4#$e#If you want to practice that kind of rhythm with me tonight, @... my room upstairs is always unlocked. Hehe~ $4",
+
+  "summer_Mon": "Phew... this summer heat is absolutely brutal today, @...$2#$e#It makes my skin so sticky and warm. I feel like taking my clothes off and just walking around naked... Mmmhh..~ $4",
+  
+  "summer_Mon2": "Can't wait for the night to cool down, handsome...$0#$b#The summer air is just too stifling inside my room. I might have to leave my window and my shirt wide open tonight...$4#$b#You know exactly how to sneak upstairs without Big Gus noticing, right? Hehe~ $4",
+  
+  "summer_Mon4": "Working out in the hot sun all day? You really have incredible stamina, @...$1#$b#Believe me, a man with that kind of endurance is highly appreciated in my line of work... Mmmhh..~ $4",
+  
+  "summer_Tue": "I tried fishing near the river yesterday, but I caught absolutely nothing...$3#$b#Maybe I’m just better at catching and handling a different kind of 'rod'... if you know what I mean~ $4",
+  
+  "summer_Tue2": "Drink some water right now, @. Seriously...$1#$b#I don't want you collapsing in the fields. Who's going to sneak into my room and keep me warm if you're sick? $0",
+  
+  "summer_Tue4": "You make farming look so peaceful. I definitely don't have the patience to wait months for things to grow...$0#$b#I prefer things that can get big, hard, and ready to harvest in just a few minutes... Mmmhh..~ $4",
+  
+  "summer_Wed": "You're probably the hardest working person in this whole town, @...$1#$e#Well, besides me, of course. Hosting those VIP guests at the bar until dawn is a real workout too~ $0",
+  
+  "summer_Wed2": "Ever want to just go to the beach, lay on the sand, and do absolutely nothing?$1#$b#I look pretty good in a micro bikini, you know. Want to come along and help me apply lotion from behind?$4",
+  
+  "summer_Wed4": "%Maisarah is whispering into her phone, her smile fading fast...$5#$e#...No. I told you I'm done with the city clubs. Don't call this private number ever again.$5",
+  
+  "summer_Sat": "This summer heat is driving me crazy...$2#$e#Though... I guess I’m already used to experiencing a much wilder, breathless kind of 'heat' in those empty inn rooms upstairs... aughHHHHhh~ $4",
+  
+  "summer_Sat2": "I completely ran out of sunscreen today...$2#$e#I think I'll go visit Pipi at his shop later. He always gets so red and nervous whenever I ask him to touch my skin... Hehe~ $0",
+  
+  "summer_Sat4": "Sometimes I feel a bit guilty letting Big Gus look after me like this...$2#$b#A broken girl shows up with a suitcase, and he just lets me stay upstairs. I guess I'll just have to keep being his favorite 'Daddy's girl' to repay him... $0",
+  
+  "summer_Thu": "Ugh! A bug bit me right on my inner thigh! $5#$e#It's so itchy and warm... look, it's right here. Do you want to blow on it to make it feel better, sweetie? Mmmhh..~ $4",
+  
+  "summer_Thu2": "Hey, @. I was actually just thinking about you...$1#$e#Specifically, about what those strong farmer hands of yours could do to my body if we were locked in a dark room together... $4",
+  
+  "summer_Thu4": "*yawn* I'm so incredibly bored today...$3#$b#Nothing to do in this quiet village but wait for a handsome man to come over and do something wicked to me... Mmmhh..~ $4",
+  
+  "summer_Thu8": "@, what actually attracts you most in a woman? My face? My personality? Or...$3#$b#Is it because of how tight this skirt looks on my hips? Don't lie to me, handsome... Hehe~ $0",
+  
+  "summer_Sun": "Wearing all black in this heat was definitely a mistake...$2#$e#But it makes my tits ( ͜.人 ͜. ) look absolutely perfect, so it's totally worth the sweat... Mmmhh..~ $4",
+  
+  "summer_Sun2": "Hey @, taking a break from your fields just to come and tease me?$1#$e#Go ahead... I don't mind being misbehaved around you at all.$4",
+  
+  "summer_Sun4": "This weather really makes me miss the ocean breeze back at Ginger Coast City...$3#$b#Those neon lights, the private yachts, the rich men buying my nights... but somehow, I'd still rather be stuck here with you.$0",
+  
+  "summer_Fri": "Here, drink this Joja Cola. [167]$1#$b#Don't push yourself too hard out there. If you die, who's going to buy me drinks at the bar tonight? $0",
+  
+  "summer_Fri2": "@? You look completely wiped out from the heat...$3#$b#Take this [167] and sit down next to me. Let me wipe that sweat off your neck... it's a free service just for you~ $0",
+  
+  "summer_Fri4": "Come find me upstairs this weekend, @...$0#$b#The VIP guests can wait. I'll lock my door and put my phone away just for you tonight... Mmmhh..~ $4",
+  
+  "summer_10": "The Luau festival is tomorrow. I hope nobody ruins the soup...$1#$e#Though... I heard the Sugar Governor is coming to town. I better prepare my best outfit so he leaves a fat pouch of gold tonight... Hehe~ $0",
+  
+  "summer_27": "I've never seen the glowing jellyfish before...$3#$e#I missed them last year because I passed out drunk in one of the inn rooms upstairs after a long night... aughHHHHhh~ $2",
+  
+  "fall_Mon": "Hey @! The weather's cooling off beautifully today.$1#$e#It makes me want to leave the saloon more often. Want to go for a private walk together somewhere quiet? Mmmhh..~ $4",
+  
+  "fall_Mon2": "By the way, @... my birthday is coming up very soon.$0#$b#I don't expect much, but... you're definitely going to visit my room upstairs and give me a very 'special' present, right? Hehe~ $4",
+  
+  "fall_Mon4": "Fall is definitely my favorite season, honestly.$0#$b#The cool breeze feels amazing on my skin... but it also makes my bed feel a bit too big and lonely at night... Mmmhh..~ $4",
+  
+  "fall_Tue": "You ever get tired of people asking too many questions, @?$3#$b#That's why I like you. You don't ask about my night job, you just look at my body with those honest eyes... Hehe~ $0",
+  
+  "fall_Tue2": "Cooler weather means I can finally try on some tight, thigh-high stockings.$1#$e#They look incredibly seksi with my pleated skirt. Want me to show you later tonight? Mmmhh..~ $4",
+  
+  "fall_Tue4": "Sometimes I feel like this peaceful village is the only place I can truly breathe, @...$0#$b#No rush, no loud city noise... just you and me staring at each other under the twilight. $0",
+  
+  "fall_Wed": "@, have you ever wanted to completely start over? New town, new life...$3#$b#I certainly did. And finding a handsome farmer like you out here was definitely the best part of it... $0",
+  
+  "fall_Wed2": "I think I like this quiet town a lot more than I let on, @...$1#$e#Don't tell anyone though. A high-end girl like me has a reputation to protect~ Hehe... $0",
+  
+  "fall_Thu": "It's so beautifully quiet today...$0#$e#I used to hate the silence, but now... it just makes me want to lock myself in a room with someone I actually like. Present company included~ $4",
+  
+  "fall_Thu2": "I was just thinking about something fun we could do tonight, @...$0#$e#Don't look so nervous, handsome. It's nothing bad... unless you want it to be wild~ Mmmhh..~ $4",
+  
+  "fall_Thu4": "You're exceptionally easy to talk to, you know that? $1#$b#Most men only look at my tits ( ͜.人 ͜. ) and want one thing, but you... well, you look at them and actually make me want to give it to you. $4",
+  
+  "fall_Fri": "The weekend is finally here, @... and I've got some very exciting plans.$1#$b#I might invite you upstairs to my room later tonight if you play your cards right... Mmmhh..~ $4",
+  
+  "fall_Fri4": "Make sure to come by the VIP bar downstairs tonight, @...$0#$b#Big Gus unlocked the pool table, and I'll even let you chalk my cue from behind if you win... Hehe~ 🫱(‿ώ‿)🫲 $4",
+  
+  "fall_Fri8": "You're really growing on me, handsome...$1#$e#Consider that either a sweet compliment or a very dangerous warning. I haven't decided yet... Mmmhh..~ $4",
+  
+  "fall_Fri10": "Spirit's Eve is coming up soon, @...$0#$b#Costumes are basically an open permission to play a different role for a night. I'm thinking of playing the bad, naughty girl this year... $4",
+  
+  "fall_Sat": "Cold autumn nights always make the saloon extra busy.$0#$e#More VIP guests, more tips... but honestly, I'd rather spend the night sweating in bed with you instead. aughHHHHhh~ $4",
+  
+  "fall_Sun": "Sundays are strictly made for doing nothing and regretting absolutely nothing...$0#$e#Like spending the whole morning naked under the sheets with a handsome farmer... Hehe~ $4",
+  
+  "fall_15": "Spirit's Eve is tomorrow, @! $1#$b#I already picked out a special, barely-there outfit. Make sure you don't miss it, you'll see everything~ $4",
+  
+  "fall_26": "It's already the last day of fall... time flies so fast.$3#$e#The nights are getting colder, @. You better start finding excuses to keep my body warm from now on. $4",
+  
+  "winter_Mon": "Brr... it's finally cold enough to make me actually wear a coat over my micro bandeau.$2#$e#Miracles do happen, see? Hehe~ $0",
+  
+  "winter_Mon2": "The winter cold is really starting to bite today, @...$3#$b#My fingertips feel so frozen. Come closer and let me slip my cold hands inside your shirt to warm them up... Mmmhh..~ $4",
+  
+  "winter_Mon8": "The Feast of the Winter Star is coming up soon...$1#$e#I used to dislike this holiday, but... this year might be different if I get to spend the night locked in your farmhouse. $0",
+  
+  "winter_Tue": "The freezing snow makes everyone around the valley walk much slower...$3#$b#I love it. It means nobody is rushing me, and I can just take my time teasing you... Hehe~ $0",
+  
+  "winter_Tue2": "Make sure to stay warm out there in the fields, @...$1#$e#Not going to lie, my nights upstairs would get incredibly boring if you froze to death out there. $0",
+  
+  "winter_Wed": "Ever notice how everyone gets a bit more honest during the winter?$0#$b#The cold just makes people drop the act. So tell me honestly, handsome... do you want to touch me right now? $4",
+  
+  "winter_Wed2": "You're one of the very few people here who doesn't ask me a hundred annoying questions...$1#$e#I appreciate that more than you know. It makes me want to reward you with something special... Mmmhh..~ $4",
+  
+  "winter_Thu": "The falling snow is quite pretty, actually.$0#$e#It reminds me that nothing stays frozen forever... everything eventually gets warm, wet, and melts away... just like me when you touch me~ $4",
+  
+  "winter_Thu2": "I'm feeling a little bit sentimental and soft today, @...$2#$e#Don't overthink it though. Just come lay in bed with me and hold me tight until I fall asleep... $0",
+  
+  "winter_Fri": "Any exciting weekend plans? I'm just planning on staying warm upstairs...$0#$b#And maybe... finally showing you what a real city hostess can do to your body when the doors are locked. aughHHHHhh~ $4",
+  
+  "winter_Fri8": "You've stuck around with a broken girl like me much longer than anyone else ever did, @...$1#$e#I notice things like that. And trust me, I always take very good care of men who stay loyal to me... $4",
+  
+  "winter_Sat": "The Feast of the Winter Star is right around the corner...$0#$e#I never really had a winter worth remembering before. I hope you'll make this one unforgettable for my body... $4",
+  
+  "winter_Sun": "A quiet Sunday morning, hot coffee, and no annoying phone calls from the city...$0#$e#This is absolute perfection. The only thing missing right now is your naked body next to mine... Mmmhh..~ $4",
+  
+  "winter_7": "The Festival of Ice is tomorrow! $1#$b#Cold outdoor sports were never my thing, but I'll gladly cheer for you while wearing something extremely tight and seksi... Hehe~ $0",
+  
+  "winter_24": "The Feast of the Winter Star is tomorrow, handsome! $1#$e#For the first time in my life, I'm actually looking forward to a holiday... make sure you visit my room after dark, okay?$4",
+
+  "gift.loved.1": "Is this for me, honey? you spoil me too much! $1#$b#Mmmnhh... let me show you my gratitude... $4",
+  "gift.loved.2": "Ooh, Gold well spent! You know exactly how to make me happy... $1#$b#Come here, honey... let me give you a big hug~ $1",
+  "gift.loved.3": "Ahhh... you brought my favorite? You're the best! $4#$b#My heart is getting so warm... thank you so much... mmmm~ $1",
+  "gift.loved.4": "Oh my... such an expensive taste! I love it when you shower me with luxury like this... $1#$b#Let's spend the rest of the evening together, sweetheart... $4",
+  "gift.loved.5": "Mmhh... you really know how to make me feel special, don't you? $1#$b#Thank you so much... *Kisses* $1",
+
+  "gift.liked.1": "Ooh, a gift? You're so sweet to me, cutie, thank you! $1",
+  "gift.liked.2": "Mmmhh... someone is craving my attention today, aren't they? $1#$b#I love it when you bring me treats. $1",
+  "gift.liked.3": "Oh, you brought me something nice! You are quite the charmer under that rough farmer look. $1#$b#Come stand close to me... let's chat for a bit after your hard work... $1",
+  "gift.liked.4": "Hmmmh, thank you sweetheart! This definitely brightens up my mood today. $1#$b#You always know how to make me happy... come visit me at the saloon tonight, okay? $4",
+  "gift.liked.5": "Mmmhh, I really like this! You are treating your favorite girl very well today. $1#$b#Keep spoiling me like this and you'll stay on my good side... $4",
+
+  "gift.neutral.1": "Oh, thank you. This is quite nice of you to bring. $1#$b#I appreciate the thought, farmer. $1",
+  "gift.neutral.2": "A gift? Thanks, I suppose I can find a use for this. $1#$b#Have a good day on the farm. $1",
+  "gift.neutral.3": "Oh, thanks. It's always nice when people show a little appreciation. $1#$b#Take care out there. $1",
+  "gift.neutral.4": "Thank you. It's simple, but it's the thought that counts, right? $1#$b#See you around the town. $1",
+  "gift.neutral.5": "Oh, thank you. That's very polite of you. $1#$b#Make sure you don't overwork yourself today. $1",
+
+  "gift.disliked.1": "...Really? This? $3#Ugh, you clearly don't know how to treat a high-end girl properly, do you? You owe me a real drink at the bar tonight, handsome... $5",
+  "gift.disliked.2": "Ugh... what a boring choice, @. This doesn't suit a girl like me at all. $3#You are going to have to work much harder if you want to keep my attention... $5",
+  "gift.disliked.3": "Are you being serious right now, handsome? This is rather disappointing... $3#You better find something much better next time to make up for this... $4",
+  "gift.disliked.4": "Oh... I see. You don't have very sophisticated taste, do you? $3#Don't just give ordinary things to a pretty girl and expect her to be thrilled... try harder next time... $5",
+  "gift.disliked.5": "Mmm... no, this won't do at all. What a cheap little piece... $3#You owe me a serious explanation tonight... let's see how you plan to fix this attitude... $4",
+
+  "gift.hated.1": "@. No. Absolutely not. $5#Get that piece of trash out of my face before I get genuinely angry... $5",
+  "gift.hated.2": "Are you trying to insult me, @? This is completely pathetic. $5#Get out of my sight... I have much better things to do with my time... $5",
+  "gift.hated.3": "What is wrong with you today?! This is absolutely disgusting. $5#Don't you ever bring this garbage near my dress again... $5",
+  "gift.hated.4": "Oh, you have got to be kidding me! This is pure garbage, @. $5#You are completely wasting my time... go back to your fields until you learn some manners... $5",
+  "gift.hated.5": "Stop right there. Keep that away from me, @. $5#You are losing your charm, handsome... don't make me look for someone who actually knows what I like... $5",
+
+  "stardrop_gift.1": "A Stardrop?! For me?! Oh my god, @... $4#$b#You really know how to make a girl completely fold, don't you? Come on, let's find a locked room right now... I'm going to give you the craziest sloppy top tonight... Mmmhh..~ $4",
+  "stardrop_gift.2": "My god, @... a Stardrop?! Are you absolute out of your mind, or do you just want to see me completely ruined tonight? $4#$b#My thighs are shaking just holding this... forget the farm, get your hands on my hips and drag me into the backroom right now... $4",
+  "stardrop_gift.3": "@... you are giving me a whole Stardrop?! You really don't care about the cost when it comes to breaking your favorite girl, huh? $4#$b#Mmmhh... I am dropping everything right now. You own every single piece of this binal body tonight, sweetheart... $4",
+  "stardrop_gift.4": "Oh wow... the actual legendary fruit just to make me drop my clothes? You are dangerously cocky, handsome... $1#$b#But fuck, it works. Lock the saloon door right now... I am going to let you drive me completely crazy until morning... $4",
+  "stardrop_gift.5": "A Stardrop... you absolute beast! You really know exactly how to buy a high-end girl's complete submission, don't you? $4#$b#Come here, hands on my rack... let me show you just how shameless and loud your wife can get when she's spoiled this good... $4",
+
+  "AcceptBouquet.1": "Oh my... a bouquet? For me? You really want to lock me down, don't you, cutie? $1#$b#Mmmh... alright, I accept. But you better be ready to handle everything that comes with being mine... $4",
+  "AcceptBouquet.2": "Ooh, so the rumors are true... someone is completely obsessed with me. I love a bold farmer. $1#$b#I'll take it, sweetheart. Let's make sure our first official celebration tonight is unforgettable... mmmm~ $4",
+  "AcceptBouquet.3": "Ahhh... you look so nervous holding that! Relax, darling, you know I can never say no to a pretty face. $1#$b#We are official now, hm? $1#$b#Come closer... let me give you a little taste of your reward... $4",
+  "AcceptBouquet.4": "A bouquet? Wow, you're quite the romantic under that rough farmer look, aren't you? $1#$b#I accept, sweetie. Just promise me you won't get too jealous when other people look at your new girl... $1",
+  "AcceptBouquet.5": "Mmmhh... finally putting a label on us? You certainly know how to make a woman feel special. $1#$b#Alright, I'm officially yours. Now, stop talking and make sure you visit my room tonight... $4",
+  
+  "reject_two_heartA": "Wait, are you seriously trying to flirt with me right now?$3#$b#Ew, no thanks, farmer boy. I don't waste my time on broke rookies who smell like dirt.$5^Wait, are you seriously trying to flirt with me right now? No offense, farmer girl, but you're way too plain to be hanging around an elite model like me.$5",
+  "reject_two_heartB": "Slow down there, honey. You haven't even bought me a glass of expensive wine yet, and you're already acting thirsty?$3",
+  "reject_four_heartA": "Yikes, talk about a major secondhand embarrassment.$3#$b#Let's be real, farmer. My lifestyle requires a massive amount of gold, and you're clearly not in my tax bracket.$2",
+  "reject_four_heartB": "Ugh, absolutely not, farmer guy. Go back to playing with your chickens.$2^Ugh, absolutely not, farmer girl. Go back to watering your little crops.$2#$b#I only entertain premium clients, and you just don't have what it takes to please a woman like me.$3",
+  "engageA": "Excuse me? Aren't you wearing an engagement ring from someone else right now?$3",
+  "engageB": "You're literally about to get married. Keep your hands to yourself before I ruin your relationship, ugh.$8",
+  "marriedA": "Oh my, you're quite the bold one, aren't you?~$3#$b#But honey, you already have %spouse waiting for you at home. Go back to them before we both get into trouble... *giggle*$1",
+  "marriedB": "Are you dreaming of making me a part of your little harem? That's so cute...$3#$b#But a high-maintenance luxury like me doesn't share the spotlight, babe. Better luck in your dreams...$1",
+
+  "refusal_no_heartsA": "Oh, sweetie... we're barely even friends yet, @. You should slow down a little bit before you get your heart broken by a girl like me... *giggle*$1",
+  "refusal_no_heartsB": "My, my... that's a bit too bold for someone I just met, don't you think, honey? Let's not rush things so quickly...$1",
+  
+  "refusal_knownA": "Mmmhh... I already gave you my answer before, @. A smart boy shouldn't make a lady repeat herself, right? *giggle*$1^Mmmhh... I already gave you my answer before, @. A smart girl shouldn't make a lady repeat herself, right? *giggle*$1",
+  "refusal_knownB": "If you keep asking me that, honey, I'm just going to have to ignore you permanently. Let's keep things sweet instead...$1",
+  "refusal_botherA": "Oh, @, sweetie... you really need to give it a rest. Persistent boys can get a little bit annoying, don't you think? $3^Oh, @, sweetie... you really need to give it a rest. Persistent girls can get a little bit annoying, don't you think? $3",
+  "refusal_botherB": "I've already said what I needed to say, babe. Let it go before I decide to lock you out of my room completely...$0",
+
+  "GreenRain": "Mmmhh... the air feels so warm and humid today, @...$1#$b#Everyone is panicking outside, but this green rain actually makes my body feel so sensitive and wet... *giggle*$1",
+  
+  "GreenRain_2": "My, my... what a strange weather, honey. Aren't you afraid of getting soaked in this glowing rain? $1#$b#Look at how the raindrops are dripping down my skin... it makes me want to find a warm place to hide with a rich handsome guy...$1",
+  
+  "breakUp": "Oh, we're done? Alright then, honey. Good luck with your little crops...$3",
+  
+  "AcceptGift_(O)StardropTea": "Mmmhh... is this Stardrop Tea for me, @? You really know how to spoil a high-maintenance girl...$4#$b#This tastes absolutely divine and expensive... Thank you, honey. $1#$b#You might actually win my heart if you keep treating me this well... *giggle*$1",
+  
+  "Resort": "Phew... the tropical sun at this resort is absolutely burning hot today, @... $2#$b#My skin feels so sticky and warm. I think I need to drop this tiny micro bikini and jump into the water right now... want to join me? Mmmhh..~ $4",
+
+  "sched_spring.000": "Ugh, @... the wind today keeps blowing this tiny skirt right up.$0#$b#Mr. Lewis and Pierre have been staring at my backside the whole time I've been walking...$4#$b#Come walk right behind me and block their view, @... unless you want to stare at it too? Hehe~ $4",
+
+  "sched_drink.000": "One more round, Daddy... Make it strong~ $1#$e#Ugh, @... those old men keep staring at my tits and it's making my head spin... $2#$b#Stay close to me, would you? $4",
+
+  "morning_after.000": "The ocean breeze is nice, but it doesn't help my throat at all. I am still so incredibly thirsty...$0#$b#Willy is completely losing his mind over there.$1#$b#He keeps dropping his fishing bait every time I pull these rainbow straps... *giggles*$4#$e#Hey, eyes up here... are my nipples distracting you? *giggles*$4",
+
+  "still_sleeping.000": "Zzzzz... zzz..... $10",
+
+  "sched_rain.000": "Ugh, my hair is getting completely ruined by this weather, @...$2#$b#I should just go hide inside the saloon and see if Big Gus has any hot tea ready. Care to join me? $0",
+  
+  "sched_summer.000": "Hmm... walking around the valley at noon is always a bad idea. My head is spinning...$3#$b#I think I'm just going to skip my walk and find a quiet shade to take some fresh previews for my phone... $4",
+  
+  "sched_summer.001": "Whew... it’s been a long day. This quick smoke break is the only thing keeping me sane...$3#$b#The twilight looks beautiful from here, @. It almost makes me want to just sit down on the grass and relax. $0",
+  
+  "sched_fall.000": "The autumn leaves are quite pretty tonight, aren't they, @? $1#$b#Just taking one last breath of fresh air before locking my doors. The nights are getting so long lately... $0",
+  
+  "sched_fall.001": "I love how the woods smell during this season. It's so quiet and deeply peaceful...$0#$b#Though... sometimes the silence makes me wonder if a handsome farmer like you ever thinks about me. Hehe~ $4",
+  
+  "sched_winter.000": "Brr! I seriously need to buy some hot cocoa from the saloon right now, @...$2#$b#My hands are practically numb. If you're not busy, you should come over and help me warm them up later... $4",
+  
+  "sched_winter.001": "It’s a very slow day at the lower bar today, @...$3#$b#Gus is just polishing glasses, and there's barely anyone around. I actually prefer it when the saloon is this quiet. $0",
+  
+  "sched_marriage.000": "Mm... I'm finally home, @~ Big Gus and Pam kept pouring me drinks tonight, so I'm feeling a little bit tipsy...$4#$b#I'm so lucky some of my guy friends from the bar were sweet enough to walk me all the way back to the farm...$0#$b#Hehe~ don't look at me with those scary, jealous eyes, baby. Come here and make me forget about them... Mmmhh..~ $4",
+
+  "Rainy_Day_0": "Mmmhh... it's pouring outside today, honey. The sound of the rain makes me just want to stay in bed all day...$1#$b#Why don't you skip the farm work for today, @? My body feels so warm and sensitive on rainy mornings... *giggle*$1",
+
+  "Rainy_Day_1": "My, my... look at you, all soaked from the fields, @. You should change out of those wet clothes before you catch a cold...$1#$b#Unless... you want me to help you take them off? I promise to be very gentle, sweetie...$1",
+
+  "Rainy_Day_2": "The weather is so gloomy today, but having a rich, hardworking spouse like you keeps me so warm...$4#$b#Just remember to keep bringing in that premium gold, honey. A high-maintenance girl like me needs her skincare and expensive treats, even when it rains...$1",
+
+  "Rainy_Day_3": "Mmmhh... I love rainy days in this house, @. It's so quiet and perfect for some... private time...$1#$b#Don't worry, your secrets are always safe with a sweet, obedient wife like me. Now, come closer and keep me warm...$1",
+
+  "Rainy_Day_4": "Ugh, the rain is ruining my plans to go out and show off my new sexy dress today...$3#$b#But I guess staying inside with you isn't a bad alternative, @. Why don't you spoil your favorite girl with some sweet cheese cake right now? $1",
+  
+  "Rainy_Night_0": "The storm is really picking up tonight, @... $2#$b#Come sit close to me. I don't love being alone, it makes my mind wander to some very... wicked thoughts~ $4",
+  
+  "Rainy_Night_3": "It's so freezing tonight, @... the storm is making me feel so restless in this quiet house... $2#$b#Hey, I have a fun idea. Why don't you invite some of your guy friends to stay over and watch a movie with us tonight? $0#$b#The more men we have in the living room, the 'warmer' the vibe will get... don't you think, baby? Mmmhh..~ $4",
+  
+  "Rainy_Night_4": "I'm so glad I'm here with you, @... but Big Gus just texted me saying the saloon is completely packed tonight... $0#$b#Can I please go over for just a little bit, baby? I promise I won't stay out until dawn this time... $4#$b#Let me just have some fun with my guy friends, and I'll give you a very wild reward when I get back~ Mmmhh..~ $4",
+  
+  "Rainy_Night_5": "Are you still awake, @...? I can't sleep, the storm is way too loud... $2#$b#My skin feels so warm and restless... slide your hands over me and quiet my mind down right now... Mmmhh..~ $4",
+  
+  "Indoor_Day_0": "Morning, @. Don't get used to me being this pleasant and sweet before I get my hot coffee... $1",
+  
+  "Indoor_Day_1": "The farmhouse feels so different with you in it... $0#$b#But you should check your mailbox, @. Lewis was lurking near our fence earlier... I wonder what he wants~ Hehe... $0",
+
+  "Indoor_Day_2": "Why are you staring at me like that? ({O}) $4#$b#Hehe, if you're free... come rub my shoulders. I'm so sore from cleaning up the house... ( • ) ( • )ԅ( ̅⌣ ̅ԅ) $4",
+
+  "Indoor_Day_3": "Are you heading to the mines today, @? $3#$b#Please, be careful down there... I don't want you coming home hurt. Who's going to hold me tight tonight then? aughHHHHhh~ $2",
+  
+  "Indoor_Day_4": "Come here for a second, @... No real reason, I just wanted your body closer to mine... Mmmhh..~ $4",
+  
+  "Indoor_Night_0": "Had a long day on the farm, @? Come sit down with me... $0#$b#You don't have to say a word. Just lay your head on my chest and let me play with your hair... $4",
+  
+  "Indoor_Night_1": "Late nights are my absolute favorite here... $0#$b#A quiet house, no annoying clients calling my private number, just you and me... $1",
+  
+  "Indoor_Night_2": "I used to dread quiet nights like this, alone with my own corrupted thoughts... $2#$b#It's not so bad when you're around to distract me, @... though my body still craves a bit of excitement... $4",
+  
+  "Indoor_Night_3": "You should really go to sleep, @. I'll be right behind you in a minute... $1#$b#I just need to clear some spicy notifications on my phone first. Don't wait up~ Hehe... $4",
+  
+  "Indoor_Night_4": "Stay up a bit longer with me, @? I'm not tired at all... $4#$b#Or maybe... my body is just craving a wild, breathless rhythm before the day completely ends... Mmmhh..~ $4",
+  
+  "Outdoor_0": "It's so beautiful out here today, @... $0#$b#I never thought I'd care about the weather until I had a massive yard to stretch my body out and enjoy... $1",
+  
+  "Outdoor_1": "You know, @... I used to think fresh air was completely overrated... $1#$b#Turns out I just never had a handsome man to give me a real, dirty reason to sneak outside... Hehe~ $4",
+  
+  "Outdoor_2": "Careful out here in the sun, @. I don't want you completely overworking yourself... $1#$b#Who's going to satisfy your binal wife tonight if you're too exhausted to move? $4",
+  
+  "Outdoor_3": "This peaceful place still doesn't feel real to me some days, @... $0#$b#Especially when I think about how chaotic my nights used to be when men fought over my time in the city... $3",
+  
+  "Outdoor_4": "Come take a break and sit with me, @. The farm isn't going anywhere... $1#$b#Besides, Mr. Lewis has been walking past our gate three times already. Let's give him a real show... $4",
+  
+  "OneKid_0": "I never pictured a girl like me becoming someone's mom, @... $2#$b#It's completely terrifying, but... looking at this baby actually makes me want to be a good girl for once. $0",
+  
+  "OneKid_1": "Look at our boy, @... he's already flexing his little arms just like you do. $1#$b#I just hope he learns how to respect women, unlike those wild, predatory beasts who used to tear me apart back in the city clubs... Hehe~ $4",
+  
+  "OneKid_2": "Waking up next to a sweet daughter and a hardworking farmer like you feels so surreal, @... $0#$b#A corrupted, broken girl like me never thought she'd deserve a peaceful family life instead of getting used on a cold mattress every single night. $4",
+  
+  "OneKid_3": "Seeing our little princess smile makes me realize how far I've come, @... $4#$b#My past was a toxic, crowded mess, but settling down and giving my body to a real man like you made every single scar worth it. $4",
+  
+  "TwoKids_0": "A boy and a girl... our hands are officially full now, @! $1#$b#The house is a beautiful mess, but seeing you take care of them makes this naughty wife of yours want to bend over right here on the kitchen floor~ Hehe... $4",
+  
+  "TwoKids_1": "The house is constantly filled with their screams and laughter these days, @... $0#$b#I don't mind it at all. It's much better than the dirty, breathless moans I used to make while getting double-teamed in those private VIP lounges... $3",
+  
+  "TwoKids_2": "I never pictured myself trapped on a quiet farm with a son and a daughter, @... $0#$b#Honestly, I thought I'd spend my whole life getting shared by wealthy strangers. Look how deeply you've ruined my old self... $4",
+  
+  "TwoKids_3": "They're growing up so fast, thinking their mom is just a sweet housewife, @... $1#$b#Let's keep it that way. They never need to find out about the explicit, hardcore videos their slutty mom still keeps hidden on her phone... $4",
+
+  "Good_0": "Mmmhh... I still can't believe a plain farmer like you managed to put a ring on an expensive model like me... You're quite the lucky one, honey... *giggle*$1",
+
+  "Good_1": "You know, @... my body gets so many expensive offers every single day, but waking up next to you is the only thing I look forward to...$1",
+  "Good_2": "Are you enjoying the married life with me so far, sweetie?~$1#$b#I hope my tight outfits and late-night... services... are keeping you fully satisfied...$1",
+  "Good_3": "My, my... you look incredibly handsome this morning, honey...$1#$b#Careful now, if you keep looking at my chest like that, you might forget to do your farm work today...$1",
+  "Good_4": "I noticed the subscriber count on my OnlyFarms hit a new record today! I'm in such a fantastic mood, @! Let me know if you want a special reward tonight...$4",
+  "Good_5": "Mmmhh... you smell like fresh dirt and pure masculinity today, honey... It's making my body feel a little too sensitive... $1",
+  "Good_6": "Don't worry about the rumors in town, babe. Even if I'm out making gold with other men, you're still the only husband who gets to own this premium body for free...$1",
+  "Good_7": "Did you just drop off a massive chest of gold in our house, @? That is the quickest way to make your favorite girl feel extremely loved...$4",
+  "Good_8": "Let's keep things sweet and smooth between us, honey. As long as you keep spoiling me with skin care and luxury gifts, I'll be your perfect, obedient wife...$0",
+  "Good_9": "Mmmhh... I had a very generous premium client at the Saloon last night, @...$1#$b#Here is a little gold bar from my earnings for our farm budget, honey. Consider it a reward from your favorite girl...$4%item id (O)336 1",
+
+  "Neutral_0": "Mmmhh... just an ordinary day, huh? Hopefully, your farm budget isn't as boring as the weather today, honey...$1",
+  "Neutral_1": "Nothing exciting happening today, @. But as long as my skincare budget is secure, I won't complain...$0",
+  "Neutral_2": "Such a quiet day around the house...$3#$e#It actually gives me plenty of time to plan my next premium outfit for OnlyFarms...*giggle*$1",
+  "Neutral_3": "Nothing much to report on my end either, babe. Just counting the gold from my online subscribers...$1",
+  "Neutral_4": "Same old, same old, @. I hope you're working hard in the fields today, my wardrobe needs a luxury upgrade...$3",
+  "Neutral_5": "Not every day brings a massive profit, honey. This slow day is fine, though, as long as it's temporary...$0",
+  "Neutral_6": "Totally uneventful today. I guess my body gets a short break from all those tiring photoshoot sessions...$1",
+  "Neutral_7": "Just another plain day on the farm. Go hit the rocks in the mine, @, standing around won't bring us any gold...$3",
+  "Neutral_8": "Nothing special today, honey. Why don't you go buy me some expensive wine from Gus to cheer me up? $1",
+  "Neutral_9": "An ordinary, peaceful day... Mmmhh, I suppose I can appreciate a calm morning before my busy night schedule...$0",
+  "Bad_0": "Had a rough day in the mines, @? Oh well...$3#$b#Don't expect me to comfort you in bed tonight. My premium services are strictly for successful men...$3",
+  "Bad_1": "You look completely exhausted, @...$3#$e#Go take a seat in the corner. You're honestly ruining the high-end vibe of my room right now...$3",
+  "Bad_2": "A bad day, huh? Trust me, honey, your low energy is starting to reflect on our farm's poor income...$3",
+  "Bad_3": "Something is clearly bothering you, @...$3#$e#But I won't push. I have better things to do, like checking my subscriber list anyway...$3",
+  "Bad_4": "Ugh, today sucked for you? Please, spare me the details...$3#$b#If you're just going to sit there looking miserable and broke, do it somewhere away from me...$3",
+  "Bad_5": "You don't have to pretend you're fine, @. Your face looks just as disappointing as your 5-minute performance in bed...$3",
+  "Bad_6": "I can tell something is totally off with you today...$3#$e#Whatever it is, deal with it quickly. I don't entertain a moody, unproductive husband...$3",
+  "Bad_7": "A long, tiring day, I get it...$3#$b#Just stay on your side of the bed tonight, @. I'm not in the mood for any clumsy attempts...$3",
+  "Bad_8": "I absolutely hate seeing you look this pathetic.$3#$e#Whether you want to talk or not, your negative energy is completely draining my mood...$3",
+  "Bad_9": "Not every day can be a winning day on the farm...$3#$b#But if tomorrow's profit is just as low as today, I might have to spend more nights checkin-in at the Saloon...$1",
+  "spring_1_married": "Mmmhh... the first day of spring is already here, honey...$1#$e#Time flies so fast when your husband is busy managing my high-earning business lendir...*giggle*$1",
+  "spring_8_married": "The Egg Festival is taking place today, @...$1#$b#Let's go watch those townsfolk take a silly egg hunt way too seriously while I secretly scout for rich clients...$1",
+  "spring_23_married": "The Flower Dance is tomorrow, sweetie...$1#$e#I guess my binal dance moves are legally yours now. Though exceptions always apply if someone offers a mountain of gold...$4",
+  "summer_1_married": "Summer is finally here, @. I hope you're ready to hear me complain about the sticky heat ruining my makeup every single day...$1",
+  "summer_8_married": "It feels like just yesterday I moved into this farmhouse...$1#$e#Our partnership has been quite profitable so far, honey. Keep up the good work...$0",
+  "summer_15_married": "What a perfect, sunny day for a lazy break, @...$1#$b#Come find some shade with me, but remember to bring a cold, expensive drink for your favorite girl...$1",
+  "fall_1_married": "Fall is definitely my favorite season, you know...$1#$e#It feels like the whole valley is finally slowing down, perfect for some scandalous late-night streaming...$1",
+  "fall_8_married": "The weather is getting much cooler, which means our house needs to be much cozier...$1#$b#I could easily get used to this lifestyle, as long as you keep buying me luxury items, honey...$1",
+  "fall_15_married": "Spirit's Eve is just around the corner, sweetie...$1#$e#I've already picked out the most scandalous, see-through lingerie for the festival. You'll definitely see...$1",
+  "fall_26_married": "The very last day of fall...$3#$b#We've built quite an expensive empire here, @. Don't let the winter slow down our gold income...$3",
+  "winter_1_married": "Winter is officially here, babe. Which means I'm stealing all the warm blankets tonight, deal with it...*giggle*$1",
+  "winter_7_married": "The Festival of Ice is happening today, @...$3#$e#Go ahead and stand in the freezing cold, honey. I'll be cheering for you from inside Gus's warm, cozy bar...$1",
+  "winter_28_married": "The absolute last day of the entire year, @...$1#$b#Whatever scandalous things come next year, I'm glad I have a reliable manager like you to share the gold with...$4",
+  "patio_Maisarah": "The weather feels so fresh out here on the patio...$1#$e#Come sit close to me for a while, @, and appreciate how stunning your wife looks today...$1",
+  "spouseRoom_Maisarah": "Mmmhh... I still can't believe this custom room is officially mine...$1#$b#It feels less like hiding my modeling business and more like... a cozy home for a premium girl...$0",
+  "funLeave_Maisarah": "Heading out to town for a bit, @... I have a rather... private business meeting to attend to.$1#$b#Be a good boy and take care of the house, honey. Don't think too much about where my big assets are going to spend the night... *giggle*$1",
+  "funReturn_Maisarah": "I'm finally back in the house...$1#$b#Did you miss your favorite slut, honey?~$1",
+
+  "event_2hearts_willy_000": "Well, well… look who's sitting pretty tonight.$0",
+  "event_2hearts_shane_000": "She's been getting stared at all fucking evening.$0",
+  "event_2hearts_mai_000": "Aww. You two boys been checking out my tits?$1",
+  "event_2hearts_willy_001": "Can you blame me? Those are some damn fine jugs.$0#$b#*Willy gives her a crooked grin.*",
+  "event_2hearts_shane_001": "He's not wrong.$0",
+  "event_2hearts_mai_001": "Ohhh? Shane actually has a dirty mouth hiding under that miserable face.$1",
+  "event_2hearts_shane_002": "I said they're nice. Don't make it weird.$3",
+  "event_2hearts_mai_002": "Too late, sweetheart. You boys started staring first.$1",
+  "event_2hearts_willy_002": "See? She's a fucking tease.$0",
+  "event_2hearts_mai_003": "And I bet you can already feel the tide rising in your pants, Sailor Man~$1",
+  "event_2hearts_willy_003": "Damn right. Hard to ignore a catch like you.$4",
+  "event_2hearts_mai_004": "Hmm... two handsome men at my table, both staring at my rack. $1#$b#Should I feel flattered?$1",
+  "event_2hearts_shane_003": "You already are.$0",
+  "event_2hearts_mai_005": "Maybe I'm curious what else you two keep hidden under all that fisherman gear.$1",
+  "event_2hearts_willy_004": "Careful, Mai. Keep poking around and you might hook something you weren't expecting.$1",
+  "event_2hearts_mai_006": "Oh, I'm counting on it.$1#$b#*Mai lightly hooks a finger into Willy's collar.*",
+  "event_2hearts_shane_004": "She's fucking shameless.$3",
+  "event_2hearts_mai_007": "Coming from you, that's adorable.$1",
+  "event_2hearts_willy_005": "You keep looking at us like that, Mai, and you're gonna get both our attention.$1",
+  "event_2hearts_mai_008": "Both? Mmm… now you're speaking my language.$1",
+  "event_2hearts_shane_005": "Willy, you're making this worse.$5",
+  "event_2hearts_willy_006": "She's the one making it worse.$0",
+  "event_2hearts_mai_009": "Don't blame me because you two are so damn easy to bait.$1",
+  "event_2hearts_willy_007": "Easy? Sweetheart, you haven't even cast your line yet.$1#$b#Wait till you feel something tug.$1",
+  "event_2hearts_mai_010": "Cocky bastard.$1",
+  "event_2hearts_willy_008": "You like cocky.$1",
+  "event_2hearts_mai_011": "Yes... two confident cocks. Now that's much more interesting.$1#$b#Mmm... you boys are getting awfully cocky tonight.$4",
+  "event_2hearts_shane_006": "She's fucking with you.$3",
+  "event_2hearts_willy_009": "Ahoy! Now you've got me curious about your clam, sweetheart.$1",
+  "event_2hearts_mai_012": "Actually… why choose one when I can just take both of you?$4",
+  "event_2hearts_shane_007": "Oh, hell. You've gotta be kidding me.$3",
+  "event_2hearts_mai_013": "Two desperate men, one table. Sounds like a perfect double-team setup to me.$4",
+  "event_2hearts_willy_010": "Now that's a fucking dangerous invitation.$1",
+  "event_2hearts_shane_008": "Willy, don't feed into her slutty games.$5",
+  "event_2hearts_mai_014": "Maybe I like being fed. Especially when I'm starving for a real pounding.$4",
+  "event_2hearts_willy_011": "Yoba. You really are completely shameless.$0",
+  "event_2hearts_mai_015": "And it's exactly what turns your old ass on, isn't it?$4",
+  "event_2hearts_shane_009": "Unfortunately... she's fucking right.$3",
+  "event_2hearts_mai_016": "See? At least between the two of you, there should be enough meat to actually fill me up.$4",
+  "event_2hearts_willy_012": "Enough meat? You're really talking trash now.$3",
+  "event_2hearts_mai_017": "Mmm. Rods, anchors, shafts... whatever heavy hardware you boys are packing under those pants.$4",
+  "event_2hearts_shane_010": "*Cough*.$3",
+  "event_2hearts_willy_013": "Goddamn, I like how filthy your mind is.$1",
+  "event_2hearts_mai_018": "Good. Because I was seriously hoping you boys could actually keep it up.$4",
+  "event_2hearts_willy_014": "You sure your tight little self can handle two guys at once?$1",
+  "event_2hearts_mai_019": "Darling, I'm more worried about whether your combined stamina can even make me stretch.$4",
+  "event_2hearts_shane_011": "That's a hell of a challenge.$1",
+  "event_2hearts_mai_020": "Then make sure you don't disappoint me tonight.$4",
+  "event_2hearts_willy_015": "Damn. Now I really wanna break that cocky attitude of yours.$1",
+  "event_2hearts_mai_021": "Hnnngh… that's it, sailor. Talk dirty to me.$4",
+  "event_2hearts_shane_012": "Wait, so we're seriously running a train on her tonight?$3",
+  "event_2hearts_mai_022": "We're negotiating the price of your ticket, handsome.$4",
+  "event_2hearts_willy_016": "How much?$3",
+  "event_2hearts_mai_023": "One hour. 500g.$3",
+  "event_2hearts_willy_017": "Five hundred? Fuck me, that's steep.$5",
+  "event_2hearts_mai_024": "Then find a cheaper girl, sailor.$5",
+  "event_2hearts_shane_013": "She's got you by the balls already.$1",
+  "event_2hearts_willy_018": "Shut the fuck up, Shane.$5",
+  "event_2hearts_mai_025": "Ohhh, I like that phrase.$1",
+  "event_2hearts_shane_014": "Don't encourage him.$5",
+  "event_2hearts_mai_026": "Two hours. 750g each.$3",
+  "event_2hearts_willy_019": "Two hours?$3",
+  "event_2hearts_mai_027": "What? Getting cold feet?$1",
+  "event_2hearts_willy_020": "Hell no.$0",
+  "event_2hearts_shane_015": "He's just wondering whether his wallet can survive you.$1",
+  "event_2hearts_mai_028": "Smart man.$0",
+  "event_2hearts_willy_021": "I'll pay 500g for two hours.$1",
+  "event_2hearts_mai_029": "You cheeky fucker. Trying to bargain with me?$5",
+  "event_2hearts_willy_022": "Thought I'd give it a shot.$0",
+  "event_2hearts_mai_030": "Fine. 1,000g total. Two hours. That's my final fucking offer.$5",
+  "event_2hearts_shane_016": "I'll take it.$4",
+  "event_2hearts_willy_023": "You didn't even hesitate.$0",
+  "event_2hearts_shane_017": "Neither did you.$0",
+  "event_2hearts_mai_031": "Heh. I knew you two were trouble.$1",
+  "event_2hearts_willy_024": "Deal?$0",
+  "event_2hearts_mai_032": "Deal.$4",
+  "event_2hearts_shane_018": "Fuck it.$0",
+  "event_2hearts_mai_033": "That's the spirit.$4",
+  "event_2hearts_willy_025": "You better be worth every damn gold piece.$1",
+  "event_2hearts_mai_034": "Oh, sailor... don't worry about my worth.$1",
+  "event_2hearts_mai_035": "Just make sure those torpedoes aren't all fucking talk.$1",
+  "event_2hearts_shane_019": "I'm starting to regret this.$2",
+  "event_2hearts_mai_036": "Too late, handsome.$1",
+  "event_2hearts_willy_026": "You're gonna be trouble.$1",
+  "event_2hearts_mai_037": "That's why you paid extra.$1",
+  "event_2hearts_mai_038": "Now finish your drinks, boys. Your little sailor sandwich is waiting.$1",
+  "event_2hearts_willy_027": "We'll see you tonight, Mai.",
+  "event_2hearts_shane_020": "Yeah. Don't keep us waiting.",
+  "event_2hearts_mai_039": "Okay, guys. See you tonight.$4",
+  "event_2hearts_mai_040": "Hmm? You wanted to talk to me?$0",
+  "event_2hearts_mai_041": "Oh, nothing serious? You just wanted to sit down?$0",
+  "event_2hearts_mai_042": "Heh. Alright. Sit with me.$0",
+  "event_2hearts_mai_043": "You know, I don't think we've ever really talked before.$0",
+  "event_2hearts_mai_044": "Sure, we've seen each other around...#$b#but that's different.$0",
+  "event_2hearts_mai_045": "You seem pretty curious about me.$1",
+  "event_2hearts_mai_046": "What? You wanna know why I spend so much time here?$1",
+  "event_2hearts_mai_047": "Well... Gus is nice to me.#$b#And the Saloon's usually more interesting than sitting alone at my room.$0",
+  "event_2hearts_mai_048": "Besides, I like watching people.$0",
+  "event_2hearts_mai_049": "You learn a lot about someone when you just sit back and watch them.$0",
+  "event_2hearts_mai_050": "What about you?$0",
+  "event_2hearts_mai_051": "You spend most of your time working on that farm, don't you?$0",
+  "event_2hearts_mai_052": "Must get lonely sometimes.$2",
+  "event_2hearts_mai_053": "Hmm? You don't mind?$0",
+  "event_2hearts_mai_054": "Fair enough.$0",
+  "event_2hearts_mai_055": "I guess there's something nice about having a place that's yours.$0",
+  "event_2hearts_mai_056": "A place you can always come back to.$0",
+  "event_2hearts_mai_057": "...$3",
+  "event_2hearts_mai_058": "Wow. Look at us.$4",
+  "event_2hearts_mai_059": "Having an actual conversation.$4",
+  "event_2hearts_mai_060": "I thought you'd just come over here to stare at me again.$1",
+  "event_2hearts_mai_061": "Heh. Don't look so innocent.$1",
+  "event_2hearts_mai_062": "Anyway... I'm glad you came over.$4",
+  "event_2hearts_mai_063": "Maybe next time, I'll tell you something a little more interesting.$1",
+  "event_2hearts_mai_064": "You'll have to come find me again, though.$1",
+  "event_2hearts_mai_065": "I don't give away all my secrets for free.$1",
+
+  "event_4hearts_alex_001": "Pierre, are you sure you don't have any bananas left? I need them for my protein shake today.",
+  "event_4hearts_demetrius_001": "And I need those high-grade Melon seeds, Pierre. My ecological data tracking depends on this harvest cycle.",
+  "event_4hearts_alex_002": "Wait, someone just walked in.",
+  "event_4hearts_pierre_001": "Welcome, Mai. What can I get for you on this God-blessed Wednesday?",
+  "event_4hearts_alex_004": "I think I've found my protein shake.",
+  "event_4hearts_mai_001": "Hi everyone. I'm looking for some imported cheese... but I can't find it. *sighs*",
+  "event_4hearts_mai_002": "Oh dear... it's all the way on the top shelf. It's so high up...",
+  "event_4hearts_alex_003": "I got it, Mai! Let a real athlete help you get that cheese.",
+  "event_4hearts_demetrius_002": "Let me stabilize your footing, so you can get that cheese.",
+  "event_4hearts_pierre_002": "Hey! Careful with the goods! I'm the one who knows how to properly stock... and pump... a shelf around here!",
+  "event_4hearts_mai_003": "Mmmhh... hahh... so close... You boys are crowding me so tight... it's getting way too warm here... *pant*",
+  "event_4hearts_alex_005": "Dayyum!, hold still, Mai... I'm just gonna lift your cheesecake so you can reach that other cheese. Don't move an inch.",
+  "event_4hearts_demetrius_003": "Wait, Alex, your lifting angle is unstable! Let me support her from behind so she doesn't tilt. This is strictly a safety protocol.",
+  "event_4hearts_pierre_005": "Hey, put her down! You're going to break my shelves! Here, Mai, let me catch your legs... I mean, guide your feet back to the ground securely!",
+  "event_4hearts_mai_003_b": "Kyaaa~! *giggles* Wait, you boys are really lifting me up?! Ahh~!",
+  "event_4hearts_mai_003_b2": "Mmmhh... Alex, your hands... not there! Ahh...! *laughs*",
+  "event_4hearts_mai_003_c": "Oughh... Mr. Pierre! Don't spread my legs like that or... Hhhmmmhh... you boys are so wild! *giggles*",
+  "event_4hearts_caroline_001": "What in the world is going on here?! Pierre! Is my own melon not big enough for you anymore, that you have to drool over her?! Get the hell away from her, right now!",
+  "event_4hearts_alex_006": "Uh, Auntie... how are you doing? I was just helping Mai reach that cheese. Hey, do you want me to lift you up too? Heh...",
+  "event_4hearts_demetrius_004": "Yes, Caroline. I was simply assisting Alex in stabilizing Mai's... asset so she wouldn't lose her balance.",
+  "event_4hearts_mai_003_d": "Aww... no cheese for me? You boys are no fun, putting me down so fast after all that hands-on treatment... *pouts* :/",
+  "event_4hearts_caroline_002": "Hands-on... w-what...?! Are you boys serious?! You can't even pick up a simple cheese without groping?!",
+  "event_4hearts_caroline_002_a1": "Fine, Alex, Demetrius—come over here and lift ME up instead!",
+  "event_4hearts_alex_006_a1": "Yo, hold up... is she actually throwin' it back right now?! Damn, Auntie really brought the whole bakery to the store... That gym-bro squat form is insane, I'm starin' for real!",
+  "event_4hearts_demetrius_004_a1": "Sheeeesh, drop it low then! That mathematical dump truck is shakin' like a straight-up earthquake, no cap! Robin gonna kill me, but man... that physics simulation is bustin'!",
+  "event_4hearts_pierre_006": "What?! Caroline, control yourself! Demetrius, Alex, back off! Don't you dare lay a single hand on my wife!",
+  "event_4hearts_mai_004": "Oh, hello AUNT... Carol... did you want to share some of my cheese? Or are you just looking to get... shared? *giggles*",
+  "event_4hearts_caroline_003": "What did you just call me?! You've got some nerve, you little tease!",
+  "event_4hearts_mai_004_b": "Oh, hey @! Look who it is. I'm so glad to see a familiar, handsome face in this circus.",
+  "event_4hearts_question": "Mai looks at you with soft, hopeful eyes while the other men sheepishly back away under Caroline's fury.",
+  "event_4hearts_choice_help": "Step up, push past the tension, and get the cheese for her.",
+  "event_4hearts_choice_ignore": "Smile gently but stay back to avoid Caroline's wrath.",
+  "event_4hearts_accept_001": "Aww, thanks, @! You're a lifesaver. Come by my place later if you want some of this cheesecake... I-I mean cheese! *winks*",
+  "event_4hearts_reject_001": "Haha, scared of Caroline, handsome? *giggles* It's okay, I understand. See you around, @!",
+  "event_4hearts_lewis_001": "Ahem! What is all this commotion in here?",
+  "event_4hearts_lewis_001_b": "Please, do not cause trouble in our peaceful town guys.",
+  "event_4hearts_lewis_001_c": "Ahem... dear Mai, could you please come to my office this afternoon?",
+  "event_4hearts_lewis_001_d": "I need your urgent assistance with some... heavy paperwork.",
+  "event_4hearts_mai_005": "Hi Papi Lui... *giggles*",
+  "event_4hearts_mai_005_b": "Yes, Papi. I will be there very soon~",
+  "event_4hearts_caroline_004": "What is the meaning of this, Mayor Lewis?! Paperwork?!",
+  "event_4hearts_caroline_004_b": "Since when does she work for the town?!",
+  "event_4hearts_lewis_002": "Oh, in case you didn't know... dear Mai is now assisting me with administrative tasks.",
+  "event_4hearts_lewis_002_b": "A woman of her... unique talents should not be wasted.",
+  "event_4hearts_lewis_002_c": "Now, come along, Mai.",
+  "event_4hearts_mai_005_c": "Ready when you are, Papi~! *giggles*",
+  "event_4hearts_mai_005_d": "Oh, and thanks again, @! Don't miss me too much~",
+
+  "event_6hearts_nar_Manor_000": "*The rhythmic sound of skin hitting skin echoes loudly through the dim, stormy bedroom.*",
+
+  "event_6hearts_Mai_Manor_000": "Ahhn... Ahh~! Yes! Right there! Ngh-ahh..!$8#$b#Don't you dare slow down now... Ah!$8",
+
+  "event_6hearts_Lewis_Manor_000": "Hah... hah... Ugh... almost... hold on, Mai... hah... oh, heavens... $4",
+
+  "event_6hearts_nar_Manor_001": "*Mai grips the edge of the couch as her pussy rammed deeper",
+
+  "event_6hearts_Mai_Manor_001": "Ah-haahn..! Ah! Ah! Ngh... Ahh~!$8#$b#Harder, Lewis! Smash it all the way in... Ahhh!$8",
+
+  "event_6hearts_Mai_Manor_002": "Oh... god, Papi! Ahh... mmhh...~$8#$b#It's hitting so deep!$8#$b#Fuck me harder Papi...!$8",
+
+  "event_6hearts_Lewis_Manor_001": "Gah! Mai... your body is so tight, it's driving me crazy! I-I'm about to... ugh... hah... $4",
+
+  "event_6hearts_nar_Manor_002": "*The couch shakes violently under the dim lamp as the frantic, wet slaps reach a deafening, messy speed.*",
+
+  "event_6hearts_Mai_Manor_003": "Yes! Give it all to me! Spill everything inside my pussy!$8#$b#Ahhn...~ Ahh... Yes! Yes! YES! $8",
+
+  "event_6hearts_Lewis_Manor_002": "G-Gah! I-I'm... c-cumming!$4#$b#Ohhh... Ugh... Aaah! $4",
+
+  "event_6hearts_Mai_Manor_004": "Ahhn! Y-Yes... f-fill me...$8#$b#N-Ngh... Ahh...~ $8",
+
+  "event_6hearts_nar_Manor_003": "*Lewis holds Mai's hips firmly, pumping his warm load deep inside her.*",
+
+  "event_6hearts_Mai_Manor_005": "Aahh~... look what you did to me... You really didn't hold back tonight, did you? $4#$b#*giggles*... I'm so messy now... but it feels so good to be this close to you.$4#$b#Don't leave just yet, okay?$4",
+
+  "event_6hearts_Lewis_Manor_003": "Wait someone is coming...$6#$b#Oh, that must be @. Just remembered he's bringing my orders from the past couple of days$1#$b#Mai, you go out and greet him first while I put my clothes back on$1",
+
+  "event_6hearts_nar_Manor_004": "*Mai quickly gets dressed and steps out of the bedroom into the main living room*",
+
+  "event_6hearts_Mai_Manor_006": "Oh, @??? You brought Mayor Lewis's order, right?$0#$b#I... I just finished working overtime tonight. There are so many village matters left unfinished, *giggles*.$1#$b#I feel bad for Papi Lu... I mean, Mayor Lewis. He gets so overwhelmed when he works alone... sigh~$0",
+
+  "event_6hearts_Mai_Manor_007": "He is just resting inside his room right now...$4#$b#let me go and call him out for you, okay? Just wait here... Mmmhh..~ $1",
+
+  "event_6hearts_Lewis_Manor_004": "Ah, @! You're delivering my order, aren't you? Oh, you've already loaded it onto my truck? Thank you, young man! $0",
+
+  "event_6hearts_Lewis_Manor_005": "I look a bit disheveled, you say? Haha, well, that's the job, kid.$0#$b#Being a Mayor means carrying a lot of weight on your shoulders$0#$b#From public relations to all this paperwork.$0#$b#Honestly, I'm glad Mai is around now to ease my burden.$1#$b#My back was aching terribly just a moment ago$1#$b#but luckily, Mai knows exactly how to soothe my strained muscles, haha. $1",
+
+  "event_6hearts_Mai_Manor_008": "Hehe~ lucky indeed$1#$b#@... Papi Lui was so stiff tonight... I had to take him to the bedroom$1#$b#Bend him over the sofa$1#$b#And help him release all that tension... Mmmhh...~$4",
+
+  "event_6hearts_Lewis_Manor_006": "Ahem! Cough... Yes, exactly. $1#$b#Maisarah is incredibly... skilled at helping me manage these exhausting administrative issues. $5#$b#Thank you for the delivery, @. It is getting exceptionally late... $0#$b#I think you should probably head back to your farm now... $1",
+
+  "event_6hearts_Mai_Manor_009": "Hehe~ Why the rush, Papi Lui? Look at how hard @ worked. $1#$b#Delivering your orders in this cold night. $0#$b#Don't you think he deserves a special 'overtime bonus' from the town's budget for his hard work... $0#$b#@ and his perfect discretion tonight? $4",
+
+  "event_6hearts_Lewis_Manor_007": "Ah... Of-Of course! Right! $1#$b#Here, @... take this gold as an extra delivery fee. $0#$b#Consider it an appreciation for your professionalism.$1",
+
+  "event_6hearts_Mai_Manor_010": "Wise choice, Lewis. $1#$b#Come on, @, let me walk you out. I think my work here is officially done for the night anyway *giggles*$1",
+
+  "quickie.maisarah.000": "Mmmhh... finally, just the two of us here... $4#$b#No time to waste, darling. Unzip those pants right now and let me treat you to a quick one...$4",
+  "quickie.nar.000": "Maisarah immediately drops to her knees, taking your hard length into her warm mouth with greedy, sloppy gulps...",
+  "quickie.maisarah.001": "Mmmmmppphh...~ sluurpp... sluuurp... Gock...gock...gock... fwahh! $4#$b#Nngh... ahhh... you taste so good, honey... keep pushing it deep inside my throat...$4",
+  "quickie.nar.001": "She pumps with expert speed, her eyes looking up at you filled with pure lust as she feels you hitting your limit...",
+  "quickie.maisarah.002": "Mmmph?! Nghhh—haaah! It's coming, isn't it...? $4#$b#Don't hold back, darling... give it all to me right now... Aahhh!$4",
+  "quickie.nar.002": "You completely drain yourself into her warm mouth as she swallows every single drop without missing a beat...",
+  "quickie.maisarah.003": "Haaah... fwahh! That was amazing... I love it when you fill me up like that, sweetheart. $1#$b#There you go. You look so energized and ready for the day... $1#$b#Now get back to the farm and work hard for your favorite girl, okay? *kisses*! $1"
+}

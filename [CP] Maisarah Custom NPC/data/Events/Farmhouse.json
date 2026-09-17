@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farmhouse",
+      "Entries": {
+	"958568/Time 1000 1500/Friendship Maisarah 3500/Weather rainy": "desolate/27 26/farmer 27 30 0 Maisarah 0 0 2/skippable/move farmer 0 -2 0/faceDirection farmer 3/faceDirection farmer 1/emote farmer 8/move farmer 0 2 2/globalFade/changeLocation Saloon/viewport 14 18/warp farmer 14 24/faceDirection farmer 0/move farmer 0 -3 0/faceDirection farmer 3/faceDirection farmer 1/emote farmer 8/move farmer 0 3 2/globalFade/changeLocation Railroad/viewport 39 41/warp farmer 36 40/faceDirection farmer 1/warp Maisarah 39 41/faceDirection Maisarah 2/move farmer 1 0 1/move farmer 0 1 2/move farmer 1 0 1/emote farmer 8/faceDirection Maisarah 3/emote Maisarah 16/pause 500/emote Maisarah 40/speak Maisarah \"{{i18n:event_14hearts_001.0}}\"/faceDirection Maisarah 2/emote Maisarah 40/speak Maisarah \"{{i18n:event_14hearts_001.1}}\"/shake Maisarah 800/speak Maisarah \"{{i18n:event_14hearts_001.2}}\"/pause 1000/speak Maisarah \"{{i18n:event_14hearts_001.3}}\"/faceDirection Maisarah 3/pause 1000/speak Maisarah \"{{i18n:event_14hearts_001.4}}\"/speak Maisarah \"{{i18n:event_14hearts_001.5}}\"/faceDirection farmer 1 true/animate farmer false true 100 101/showFrame Maisarah 32/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 10/positionOffset Maisarah -2 0/pause 2000/stopAnimation farmer/pause 1500/faceDirection Maisarah 3/pause 1500/message \"{{i18n:event_14hearts_001.6}}\"/quickQuestion {{i18n:event_14hearts_001.7}}#{{i18n:event_14hearts_001.8}}#{{i18n:event_14hearts_001.9}}(break)(break)/speak Maisarah \"{{i18n:event_14hearts_001.10}}\"/pause 1000/speak Maisarah \"{{i18n:event_14hearts_001.11}}\"/pause 1000/speak Maisarah \"{{i18n:event_14hearts_001.12}}\"/emote farmer 20/emote Maisarah 20/end"
+},
+	},
+	],
+}

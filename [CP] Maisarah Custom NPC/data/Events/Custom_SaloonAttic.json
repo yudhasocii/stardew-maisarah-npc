@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_SaloonAttic",
+      "Entries": {
+          "112244/f Maisarah 1500/t 1900 2400/p Maisarah": "ocean/4 24/farmer 4 24 3 Maisarah 3 24 1/skippable/pause 1000/playSound yudhasocii.MaisarahNPC_Slurp/animate farmer false true 200 114 115 116 114 115 116/speak Maisarah \"{{i18n:quickie.maisarah.000}}\"/message \"{{i18n:quickie.nar.000}}\"/speak Maisarah \"{{i18n:quickie.maisarah.001}}\"/message \"{{i18n:quickie.nar.001}}\"/speak Maisarah \"{{i18n:quickie.maisarah.002}}\"/message \"{{i18n:quickie.nar.002}}\"/shake farmer 2000/playSound slimedead/pause 1000/speak Maisarah \"{{i18n:quickie.maisarah.003}}\"/globalFade/viewport -1000 -1000/end"
+      }
+    }
+  ]
+}

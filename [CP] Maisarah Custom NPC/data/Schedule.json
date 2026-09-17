@@ -1,0 +1,18 @@
+{
+  "Changes": [
+    {
+      "LogName": "Maisarah Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Maisarah",
+      "Entries": {
+        "spring": "0610 Custom_SaloonAttic 2 23 2 maisarah_bedtime \"Strings\\schedules\\Maisarah:still_sleeping.000\"/0700 Saloon 20 19 2/1100  ManorHouse 3 6 0/1600 Beach 51 24 2 \"Strings\\schedules\\Maisarah:morning_after.000\"/2400 Custom_SaloonAttic 2 6 1",
+        "marriage_Mon": "900 Beach 41 36 2 maisarah_glasses/1630 Saloon 26 18 2 maisarah_drink \"Strings\\schedules\\Maisarah:marriage.000\"/2030 BusStop 1 23 3",
+        "summer": "830 Town 27 97 2 maisarah_glasses \"Strings\\schedules\\Maisarah:summer.000\"/1530 Beach 23 5 2/1730 Saloon 26 18 2/2200 Town 38 69 2 maisarah_smoke \"Strings\\schedules\\Maisarah:summer.001\"/2400 Custom_SaloonAttic 2 6 1",
+        "fall": "830 Saloon 16 20 0/1100 Forest 41 10 2 maisarah_glasses \"Strings\\schedules\\Maisarah:fall.001\"/1630 Saloon 26 18 2 maisarah_drink \"Strings\\schedules\\Maisarah:drink.000\"/2200 Town 38 69 2 maisarah_smoke \"Strings\\schedules\\Maisarah:fall.000\"/2400 Custom_SaloonAttic 2 6 1",
+        "winter": "700 Saloon 6 17 2 maisarah_drink \"Strings\\schedules\\Maisarah:drink.000\"/1430 Saloon 7 18 1 \"Strings\\schedules\\Maisarah:winter.001\"/1750 Saloon 23 19 0/2200 Town 38 69 2 maisarah_smoke \"Strings\\schedules\\Maisarah:winter.000\"/2400 Custom_SaloonAttic 2 6 1",
+        "rain": "700 Saloon 6 17 2 maisarah_drink \"Strings\\schedules\\Maisarah:drink.000\"/1430 Saloon 7 18 1 \"Strings\\schedules\\Maisarah:rain.000\"/1750 Saloon 39 19 2/2200 Town 38 69 2 maisarah_smoke \"Strings\\schedules\\Maisarah:spring.000\"/2400 Custom_SaloonAttic 2 6 1",
+        "GreenRain": "610 Saloon 19 23 3"
+      }
+    }
+  ]
+}

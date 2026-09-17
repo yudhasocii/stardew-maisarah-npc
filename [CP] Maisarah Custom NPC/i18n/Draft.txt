@@ -1,0 +1,140 @@
+
+notes:
+0-15: movement/idle 4 arah (wajib diisi bener)
+36-38 (female) / 48-50 (male): reserved buat wedding sprite
+40-47 (female) / 44-47 (male): Flower Dance
+
+BACKLOG UPDATE MOD MAISARAH (SINGLE VER.):
+1. Mail Delivery Bonus System: Sistem otomatisasi pengiriman surat manja dari Mai ke mailbox Farmer setiap hari Sabtu pagi, lengkap dengan lampiran Gold atau item hasil check-in malam Jumat.
+2. Jealousy & Posesif Dialogue Override: Trigger dialog ngambek seksi dan sinis khas ani-ani saat Farmer kedapatan memberikan loved items ke NPC wanita lain, menuntut hadiah skincare mahal untuk baikan.
+3. Farmer's Health Tracking Dialogue (High Priority): Conditional override logic yang mendeteksi player.health < 30% untuk interupsi dialog harian dengan respon panik seksi dan perhatian manja dari Mai.
+4. Weather & Time Awareness Dialogue: Variasi dialog interaktif yang peka terhadap kondisi hujan deras serta mendeteksi waktu malam hari (jam 22.00 ke atas) jika Farmer masih berkeliaran di luar.
+5. Wallet Awareness Dialogue: Sistem respon dialog yang adaptif terhadap jumlah uang Farmer (Money), memberikan teasing matre saat bokek dan meminta apresiasi barang mahal saat Farmer kaya raya.
+
+
+{
+  "Changes": [
+    {
+      "LogName": "Maisarah Smart NPC Conditional Dialogue Explicit",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maisarah",
+      "Entries": {
+
+        "// 1. KONDISI CUACA SPESIFIK (Hujan Hari Sabtu)": "",
+        ""Sat_Rain": "The rain outside is making everything so damn damp and cold...$0#$b#And honestly, it's getting me all hot and needy, trapped in this cozy little room with you... $1#$b#Mmmhh... lock the fucking door already. I don't want anyone interrupting us while we figure out how to warm each other up... $4#$b#Just look at me... you know exactly what I'm thinking, don't you? Mmmhhh~ $1"
+
+        "// 2. KONDISI BERDASARKAN LOKASI (Saat Amoy di Pantai)": "",
+        ""Beach_Maisarah": "The salty ocean breeze always gets my skin so fucking hot...$0#$b#Willy was just showing me how he handles that long, hard fishing rod earlier... $1#$b#Mmmhh... watching him work it had me wondering... is there anyone else on this beach who knows how to cast deep into a really tight spot? $1#$b#Hehehe... I might be in the mood to find out. Mmmhhh~ $4",
+
+        "// 3. KONDISI BERDASARKAN HEART LEVEL (Contoh Hari Senin saat 8 Hearts)": "",
+        "Mon8": "I was just thinking about how much closer we've become lately.$0#$b#Did you know my InstaFarm subscribers have been begging for a video with a real farmer? $4#$b#Ahh... now that you know me this well, I think it's time you stop just staring at my tits and actually do something about it, eemmmhh $4",
+
+        "// 4. KONDISI BERDASARKAN DINAMIKA DOMPET / KEKAYAAN": "",
+        "Money_Tease": "I saw your shipping bin was completely overflowing this morning.$0#$b#A wealthy farmer with deep pockets is exactly the kind of client I love to reward the most... $1#$b#Ahh... why don't you spend some of those hard-earned gold coins to see what's under my skirt tonight? Mmmhh..~ $4",
+
+        "// 5. KONDISI FESTIVAL MUSIMAN (Saat Festival Luau di Musim Panas)": "",
+        "summer_Luau": "Everyone is so focused on the Governor's soup right now.$0#$b#But I've been busy watching the way the Governor stares at my cleavage whenever Lewis isn't looking... $1#$b#I bet the old man wants to taste a completely different kind of local flavor today, aughHHHHhh $4"
+
+      }
+    }
+  ]
+}
+
+{
+      "LogName": "Maisarah Tuesday 4-Hearts Blend Pool Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maisarah",
+      "Entries": {
+        // This takes the original 15 daily lines AND smoothly injects the 4-Heart variations!
+        "Tue": "{{i18n:{{Random: maisarah.daily.tue.1, maisarah.daily.tue.2, maisarah.daily.tue.3, maisarah.daily.tue.4, maisarah.daily.tue.5, maisarah.daily.tue.6, maisarah.daily.tue.7, maisarah.daily.tue.8, maisarah.daily.tue.9, maisarah.daily.tue.10, maisarah.daily.tue.11, maisarah.daily.tue.12, maisarah.daily.tue.13, maisarah.daily.tue.14, maisarah.daily.tue.15, maisarah.tue4.1, maisarah.tue4.2, maisarah.tue4.3}}}}"
+      },
+      "When": {
+        "Hearts:Maisarah": "3, 4, 5"
+      }
+    }
+  "maisarah.mon2.1": "Hi there, handsome. You always look like you are completely focused on a mission, don't you?$4#$b#I was just thinking about how quiet this valley can get when everyone is busy working... $0#$b#And how easily I get distracted the moment a certain strong-shouldered farmer walks into my view... *giggles* $1#$b#Don't be a stranger, @... you are always welcome to step closer and make my day a little more interesting, mmmhh... $1",
+
+  "maisarah.mon2.2": "You know, @... when I first packed my bags and moved out of Zuzu City, I thought I would be completely bored to death within a week... $0#$b#But luckily for me, this little valley has a few unexpected ways of keeping a girl highly entertained... $1#$b#Especially when a certain handsome farmer keeps walking past with that confident composure... *giggles* $4#$b#Mmmhh... I am starting to look forward to our little encounters a lot more than I probably should, hehehe~ $4",
+
+  "maisarah.mon2.3": "My mind has a terrible habit of wandering into some very quiet, private places during the day.$7#$b#Sometimes I just let myself relax and completely enjoy a few minutes of peace... $0#$b#Then I start wondering what kind of trouble I could get into if the right person happened to show up out of nowhere... *giggles* $1#$b#Are you the type of man who likes to stir up trouble, @? Mmmhh... $4",
+
+  "maisarah.mon2.4": "Mmmhh... you smell like fresh soil and honest, heavy labor right now.$4#$b#It is a surprisingly attractive combination, you know... $1#$b#It almost makes me want to follow you around more often... just to keep a very close eye on you... hehehe~ $1#$b#Though if I get too close, don't you dare blame me when I stop pretending I am only interested in passing the time... $4",
+
+  "maisarah.mon2.5": "I was looking over some schedules and updates earlier today.$0#$b#People always tell me I have a natural, effortless talent for keeping everyone completely interested... $4#$b#I told them that is hardly a difficult job when a girl knows exactly how to speak... and exactly when to stand a little closer... *giggles* $1#$b#You should definitely stick around close to me, handsome... I promise I can make our conversations very memorable... $4"
+
+  "maisarah.mon2.6": "That vanilla scent lingering in the air right now isn't from the valley flowers, handsome.$4#$b#It is a new body mist... very soft, very subtle... $0#$b#The kind of fragrance you only notice when you are standing exceptionally close to a girl... *giggles* $1#$b#Which means you will have to step a lot closer if you want to test it properly, @... don't worry, I don't bite... $4",
+
+  "maisarah.mon2.7": "Concentrating on a simple task is becoming completely impossible whenever you are walking around, @.$0#$b#You just pass right through my view, and suddenly my entire train of thought goes straight out the window... hehehe~ $1#$b#Honestly, if you are going to look that good while doing heavy labor, you should at least warn a girl... $1#$b#It is completely unfair to my focus, mmmhh... $4",
+
+  "maisarah.mon2.8": "Staring is a terrible habit, isn't it? $s#$b#Yet, watching you move around out there is easily the most interesting part of my day... $0#$b#You have no idea how distracting a strong pair of shoulders can be, even from a distance, honey... *giggles* $1#$b#You really shouldn't give a girl like me so many reasons to look, mmmhh... $4",
+
+  "maisarah.mon2.9": "Cooking is officially a complete disaster on my end, hands down.$s#$b#Perhaps a real farmer's assistance is exactly what is missing around here... $0#$b#Word on the street is that you people are remarkably good with your hands, after all... hehehe~ $4#$b#Oh, don't give me that innocent look, @... the conversation was about kitchen work... mostly... $1",
+
+  "maisarah.mon2.10": "Careful staring like that, handsome... someone might think you are interested in buying what I am selling.$4#$b#Oh, relax, honey... *giggles* You can look all you want, but you look like the type who prefers a more hands-on experience... $1#$b#Curiosity can be a dangerous thing around a woman like me... are you feeling brave right now? Mmmhh... $4",
+
+  "maisarah.mon2.11": "Penny was carrying some exceptionally heavy library books down the street earlier today.$1#$b#The poor schoolteacher thanked me and hurried away the second I tried to lean in and tease her... $4#$b#People in this sleepy little village are so remarkably easy to embarrass, aren't they? $4#$b#You are different, though, @... how close do I have to get before I finally make you lose that confident little composure, mmmhh... $1"
+
+  "maisarah.mon2.12": "Business has been a tiny bit slow around the valley lately, which usually completely bores a city girl like me.$7#$b#But luckily for both of us, you are much more interesting than the usual crowd around here... $1#$b#Are you walking over here to talk business with me, handsome... or are you just here to admire the scenery? I don't mind either way... *giggles* $4",
+
+  "maisarah.mon2.13": "Your hands look a little bit rougher every single time I see you, @.$4#$b#There is something I really, deeply like about that... they look like they actually work for a living... $1#$b#Back in the Zuzu City clubs, the men had such soft, useless hands... $1#$b#It always made me wonder what rough, strong hands like yours are capable of when you are completely relaxed, hehehe~ $4",
+
+  "maisarah.mon2.14": "I spent the entire afternoon rearranging my small bedroom upstairs in the attic.$s#$b#Now my bed is facing a slightly different direction... a truly tremendous achievement, I know... $1#$b#You should come upstairs and inspect my hard work sometime, honey... $4#$b#Just be warned... I might decide the wooden furniture isn't the most interesting thing in the room, mmmhh... $4",
+
+  "maisarah.mon2.15": "Maybe if you play your cards right, I will tell you some scandalous stories about what I used to do back in Zuzu City... $7#$b#But only if you promise not to look so innocent while I share the details... $4#$b#It is a bit dangerous, really... a woman could get used to having someone she actually wants to see waiting right outside her door, hehehe~ $1"
+
+
+
+*flap flap flap* Mmmhh… keep your eyes on me, sweetheart. 😏💕 I’m right here, grinding on your lap, and you’re already staring at my tits and ass like crazy. Mmmhh… don’t get shy now—I can see how horny you are, and I can feel your cock getting hard underneath me. Hehehe… ahhh… just relax and enjoy the way I grind for you. ❤️😘
+
+Mmmhh… here, feel my squishy jugs. 😏💕 You like my tits, sweetheart? Hehehe… look at you… I can already hear that little moan. Aahhh… you’re so fucking horny, aren’t you? Don’t get shy now. Mmmmh… keep those eyes right here. You wanted my attention, didn’t you? Then enjoy it, sweetheart… I’m not going anywhere. Hehehe… ❤️😘
+
+{
+  "event_4hearts_alex_001": "Pierre, are you sure you don't have any bananas left? I really need them for my post-workout shake today.",
+  "event_4hearts_demetrius_001": "And I require those high-grade Melon seeds, Pierre. My ecological data tracking depends entirely on this harvest cycle.",
+  "event_4hearts_alex_002": "Wait... look who just walked in.",
+  "event_4hearts_pierre_001": "Welcome, Mai. What can I get for you on this beautiful Wednesday?",
+  "event_4hearts_alex_004": "Forget the shake... I think I just found my real protein source.",
+  "event_4hearts_mai_001": "Hi everyone... I'm looking for some imported cheese, but I can't seem to find it anywhere... *sighs*",
+  "event_4hearts_mai_002": "Oh dear... it's all the way on the top shelf. It's just too high up for me...",
+  "event_4hearts_alex_003": "I've got you, Mai! Let a real athlete help you get a hold of that cheese.",
+  "event_4hearts_demetrius_002": "Let me stabilize your footing, Mai, just to ensure you reach it safely.",
+  "event_4hearts_pierre_002": "Hey! Careful with the goods! I'm the only one who knows how to properly stock... and pump... a shelf around here!",
+  "event_4hearts_mai_003": "Mmmhh... hahh... so close... You boys are crowding me so tight... it's getting way too warm in here... *pant*",
+  "event_4hearts_alex_005": "Damn, hold still, Mai... I'm just going to support your lovely assets so you can reach it. Don't move an inch.",
+  "event_4hearts_demetrius_003": "Wait, Alex, your lifting angle is completely unstable! Let me support her full hips from behind so she doesn't tilt. This is strictly a safety protocol.",
+  "event_4hearts_pierre_005": "Hey, put her down! You're going to break my shelves! Here, Mai, let me catch your thighs... I mean, guide your feet back to the floor securely!",
+  "event_4hearts_mai_003_b": "Kyaaa~! *giggles* Wait, you boys are really lifting me up?! Ahh~!",
+  "event_4hearts_mai_003_b2": "Mmmhh... Alex, your hands... not right there! Ahh...! *laughs*",
+  "event_4hearts_mai_003_c": "Oughh... Mr. Pierre! Don't spread my legs like that or... Hhhmmmhh... you boys are so wild! *giggles*",
+  "event_4hearts_caroline_001": "What in the world is going on here?! Pierre! Is my own melon not big enough for you anymore, that you have to drool over her?! Get away from her, right now!",
+  "event_4hearts_alex_006": "Uh, Auntie... how are you doing? I was just helping Mai reach that cheese. Hey, do you want me to lift you up too? Heh...",
+  "event_4hearts_demetrius_004": "Yes, Caroline. I was simply assisting Alex in stabilizing Mai's... assets so she wouldn't lose her balance.",
+  "event_4hearts_mai_003_d": "Aww... no cheese for me? You boys are no fun, putting me down so fast after all that hands-on treatment... *pouts*",
+  "event_4hearts_caroline_002": "Hands-on... w-what...?! Are you boys serious?! You can't even pick up a simple cheese without groping?!",
+  "event_4hearts_caroline_002_a1": "Fine, Alex, Demetrius—come over here and lift ME up instead! Let's see if you can handle a real woman!",
+  "event_4hearts_alex_006_a1": "Whoa, hold on... is she actually bending over for us right now?! Damn, Auntie is packing way more than I thought... I can't even look away, for real.",
+  "event_4hearts_demetrius_004_a1": "Good heavens... look at her go! That is an incredible display of pure physics right there. Robin is going to kill me, but man... this view is absolutely breathtaking.",
+  "event_4hearts_pierre_006": "What?! Caroline, control yourself! Demetrius, Alex, back off! Don't you dare lay a single hand on my wife!",
+  "event_4hearts_mai_004": "Oh, hello Caroline... did you want to share some of my cheese? Or are you just looking to get... shared by everyone tonight? *giggles*",
+  "event_4hearts_caroline_003": "What did you just say to me?! You've got some nerve, you little slut!",
+  "event_4hearts_mai_004_b": "Oh, hey @! Look who it is. I'm so glad to see a familiar, handsome face in this circus.",
+  "event_4hearts_question": "Mai looks at you with soft, hopeful eyes while the other men sheepishly back away under Caroline's fury.",
+  "event_4hearts_choice_help": "Step up, push past the tension, and get the cheese for her.",
+  "event_4hearts_choice_ignore": "Smile gently but stay back to avoid Caroline's wrath.",
+  "event_4hearts_accept_001": "Aww, thanks, @! You're a lifesaver. Come by my place later if you want some of this cheesecake... I-I mean cheese! *winks*",
+  "event_4hearts_reject_001": "Haha, scared of Caroline, handsome? *giggles* It's okay, I understand. See you around, @!",
+  "event_4hearts_lewis_001": "Ahem! What is all this commotion in here?",
+  "event_4hearts_lewis_001_b": "Please, do not cause trouble in our peaceful town, everyone.",
+  "event_4hearts_lewis_001_c": "Ahem... dear Mai, could you please come to my office this afternoon?",
+  "event_4hearts_lewis_001_d": "I need your urgent assistance with some... heavy paperwork.",
+  "event_4hearts_mai_005": "Hi Papi Lui... *giggles*",
+  "event_4hearts_mai_005_b": "Yes, Papi. I will be there very soon~",
+  "event_4hearts_caroline_004": "What is the meaning of this, Mayor Lewis?! Paperwork?!",
+  "event_4hearts_caroline_004_b": "Since when does she work for the town?!",
+  "event_4hearts_lewis_002": "Oh, in case you didn't know... dear Mai is now assisting me with administrative tasks.",
+  "event_4hearts_lewis_002_b": "A woman of her... unique talents should not be wasted.",
+  "event_4hearts_lewis_002_c": "Now, come along, Mai.",
+  "event_4hearts_mai_005_c": "Ready when you are, Papi~! *giggles*",
+  "event_4hearts_mai_005_d": "Oh, and thanks again, @! Don't miss me too much~"
+}
+

@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Maisarah 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Maisarah 39 11 2/skippable/showFrame Maisarah 29/move farmer -14 0 3/speak Maisarah \"{{i18n:event_4hearts_001}}\"/jump farmer/faceDirection farmer 0/speak Maisarah \"{{i18n:event_4hearts_002}}\"/emote farmer 40/move farmer 0 -2 0/speak Maisarah \"{{i18n:event_4hearts_003}}\"/pause 500/speak Maisarah \"{{i18n:event_4hearts_004}}\"/emote farmer 8/speak Maisarah \"{{i18n:event_4hearts_005}}\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Maisarah false true 250 30 31 30 31/speak Maisarah \"{{i18n:event_4hearts_006}}\"/stopAnimation Maisarah/showFrame Maisarah 29/faceDirection farmer 0/pause 500/speak Maisarah \"{{i18n:event_4hearts_007}}\"/pause 500/speak Maisarah \"{{i18n:event_4hearts_008}}\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Maisarah \"{{i18n:event_4hearts_009}}\"/pause 500/speak Maisarah \"{{i18n:event_4hearts_010}}\"/move Maisarah 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end"
+	},
+	},
+	],
+}

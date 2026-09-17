@@ -1,0 +1,43 @@
+{
+    "Changes": [
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Maisarah": {
+                    "DisplayName": "{{i18n:Maisarah.Name}}",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Neutral",
+                    "BirthSeason": "fall",
+                    "BirthDay": "17",
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": true,
+                    "CanVisitIsland": true,
+                    "SpouseAdopts": true,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "WinterStarParticipant": true,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SaloonAttic",
+                            "Tile": {
+                                "X": 2,
+                                "Y": 23
+                            },
+                            "Direction": "right"
+                        }
+                    ],
+                    "SpouseRoom": {
+                        "MapAsset": "MaisarahSpouseRoom"
+                    }
+                },
+            }
+        }
+    ]
+}
